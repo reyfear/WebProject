@@ -3,8 +3,8 @@
 	$username = "reyfear";
 	$password = "001122";
 	$dbname = "mdt419";
-    $tablename = "lkuserDB";  
-    
+  $tablename = "lkuserDB";  
+
     $email = $_GET["email"];
     $pass = $_GET["password"];
     $repassword = $_GET["repassword"];
