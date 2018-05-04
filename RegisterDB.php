@@ -7,6 +7,7 @@
     
     $email = $_GET["email"];
     $pass = $_GET["password"];
+    $repassword = $_GET["repassword"];
     $address = $_GET["address"];
     $telephone = $_GET["tel"];
 
