@@ -1,0 +1,363 @@
+{
+    "camera1": {
+        "name": "Sony A6000 KIT 16-50mm.",
+        "brand": "Sony",
+        "type": "Mirrorless",
+        "price": "23,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera2": {
+        "name": "Sony Alpha a6300 KIT 16-50mm.",
+        "brand": "Sony",
+        "type": "Mirrorless",
+        "price": "31,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera3": {
+        "name": "Sony Alpha a6500 (body)",
+        "brand": "Sony",
+        "type": "Mirrorless",
+        "price": "36,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera4": {
+        "name": "Sony Alpha a7 II K 28-70mm.",
+        "brand": "Sony",
+        "type": "Mirrorless",
+        "price": "51,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera5": {
+        "name": "Sony A7 III Lens 28-70mm.",
+        "brand": "Sony",
+        "type": "Mirrorless",
+        "price": "74,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera6": {
+        "name": "Nikon D7200 Kit 18-140mm.",
+        "brand": "Nikon",
+        "type": "DSLR",
+        "price": "35,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera7": {
+        "name": "Nikon D5600",
+        "brand": "Nikon",
+        "type": "DSLR",
+        "price": "28,880 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera8": {
+        "name": "Nikon D3400 Kit 18-55mm.",
+        "brand": "Nikon",
+        "type": "DSLR",
+        "price": "16,900 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera9": {
+        "name": "Nikon D5500 Kit 18-55mm.",
+        "brand": "Nikon",
+        "type": "DSLR",
+        "price": "31,500 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera10": {
+        "name": "Nikon D750 Kit 24-120mm.",
+        "brand": "Nikon",
+        "type": "DSLR",
+        "price": "71,000 Bath",
+            "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera11": {
+        "name": "Fujifilm X-T2 Kit 18-55mm.",
+        "brand": "Fujifilm",
+        "type": "Mirrorless",
+        "price": "54,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera12": {
+        "name": "Fujifilm X-T20 Kit 16-50mm.",
+        "brand": "Fujifilm",
+        "type": "Mirrorless",
+        "price": "34,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera13": {
+        "name": "Fujifilm X-A5 Kit 15-45mm.",
+        "brand": "Fujifilm",
+        "type": "Mirrorless",
+        "price": "21,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera14": {
+        "name": "Fujifilm X-H1 (Body)",
+        "brand": "Fujifilm",
+        "type": "Mirrorless",
+        "price": "69,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera15": {
+        "name": "Fujifilm X-E3 Kit 18-55mm.",
+        "brand": "Fujifilm",
+        "type": "Mirrorless",
+        "price": "45,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera16": {
+        "name": "Canon EOS 7D Mark II 18-135mm.",
+        "brand": "Canon",
+        "type": "DSLR",
+        "price": "69,923 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera17": {
+        "name": "Canon EOS M6 Kit 18-150mm.",
+        "brand": "Canon",
+        "type": "Mirrorless",
+        "price": "36,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera18": {
+        "name": "Canon EOS 750D 18-55mm.",
+        "brand": "Canon",
+        "type": "DSLR",
+        "price": "30,900 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera19": {
+        "name": "Canon EOS M100 Kit 15-45mm.",
+        "brand": "Canon",
+        "type": "Mirrorless",
+        "price": "24,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    "camera20": {
+        "name": "Canon EOS 5D Mark IV Kit 24-70mm.",
+        "brand": "Canon",
+        "type": "DSLR",
+        "price": "152,898 Bath",
+        "img": {
+            "img1": "",
+            "img2": "",
+            "img3": "",
+            "img4": ""
+        }
+    },
+    
+    "Lens1": {
+        "name": "Canon EF 14MM. F/2.8L II USM",
+        "brand": "Canon",
+        "type": "Lens",
+        "price": "73,200 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens2": {
+        "name": "Canon EF 50MM. F/1.4",
+        "brand": "Canon",
+        "type": "Lens",
+        "price": "73,200 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens3": {
+        "name": "Canon EF 180MM. F/3.5 MACRO L USM",
+        "brand": "Canon",
+        "type": "Lens",
+        "price": "50,650 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens4": {
+        "name": "Nikkor AF FISHEYE 16MM. F/2.8 D",
+        "brand": "Nikon",
+        "type": "Lens",
+        "price": "23,655 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens5": {
+        "name": "Nikkor 200-500MM. f5.6E ED VR",
+        "brand": "Nikon",
+        "type": "Lens",
+        "price": "39,900 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens6": {
+        "name": "Nikkor AF-S 35 MM. F/1.4 G",
+        "brand": "Nikon",
+        "type": "Lens",
+        "price": "63,900 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens7": {
+        "name": "Sony E 20MM. f/2.8 ",
+        "brand": "Sony",
+        "type": "Lens",
+        "price": "11,490 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens8": {
+        "name": "Sony 70-300MM. F/4.5-5.6 G SSM",
+        "brand": "Sony",
+        "type": "Lens",
+        "price": "30,591 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens9": {
+        "name": "Sony FE 100MM. f/2.8 STF GM",
+        "brand": "Sony",
+        "type": "Lens",
+        "price": "58,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens10": {
+        "name": "Fujinon XF 18MM. f/2 R",
+        "brand": "Fujifilm",
+        "type": "Lens",
+        "price": "6,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens11": {
+        "name": "Fujinon XF 16MM. f/1.4 R WR",
+        "brand": "Fujifilm",
+        "type": "Lens",
+        "price": "30,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+    "Lens12": {
+        "name": "Fujinon XF 50-140MM. f/2.8 R LM OIS WR",
+        "brand": "Fujifilm",
+        "type": "Lens",
+        "price": "56,990 Bath",
+        "img": {
+            "img1": "",
+            "img2": ""
+        }
+    },
+}
