@@ -1,9 +1,9 @@
 window.onload = pageLoad;
 
 function pageLoad(){
-	var allBuyBtn = document.querySelectorAll(".buyBtn");
-  for (var i = 0; i < allBuyBtn.length; i++) {
-    allBuyBtn[i].addEventListener('click', gotoInfo, true);
+	var allproductpic = document.querySelectorAll(".productpic");
+  for (var i = 0; i < allproductpic.length; i++) {
+    allproductpic[i].addEventListener('click', gotoInfo, true);
   }
 
   var slideJS = document.createElement("script");
