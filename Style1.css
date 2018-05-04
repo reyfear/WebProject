@@ -96,6 +96,8 @@ p{
     justify-content: space-around;
 }
 .adcontent{
+    margin-top: 30px;
+    margin-left: 30px;
     flex-flow: column;
 }
 .imgad{
@@ -424,6 +426,7 @@ p.space{
 }
 
 .AD{
+    
     width: 100%;
     height: auto;
     display: flex;
@@ -433,7 +436,7 @@ p.space{
 
 .btnADlayout{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
     justify-content: center;
 }
