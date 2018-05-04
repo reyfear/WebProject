@@ -17,7 +17,7 @@
 	VALUES ('$email', $pass, '$address', '$telephone')";
 
 	if($conn->query($sql) === TRUE) {
-		echo "New record created successfully";
+		echo "ID Created";
     header("Location: http://localhost/MDT419/week12/assignment12/login.html");
     exit;
 	} else {
