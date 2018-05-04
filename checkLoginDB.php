@@ -3,7 +3,7 @@
 	$username = "reyfear";
 	$password = "001122";
 	$dbname = "mdt419";
-    $tablename = "details";    
+    $tablename = "lkuserDB";    
     $name = $_GET["name"];
     $email = $_GET["email"];
     session_start();
