@@ -5,10 +5,9 @@
         "type": "Mirrorless",
         "price": "23,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam1_1.jpg",
+            "img2": "Camera/Cam1_2.jpg",
+            "img3": "Camera/Cam1_3.jpg"
         }
     },
     "camera2": {
@@ -17,10 +16,9 @@
         "type": "Mirrorless",
         "price": "31,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam2_1.jpg",
+            "img2": "Camera/Cam2_2.jpg",
+            "img3": "Camera/Cam2_3.jpg"
         }
     },
     "camera3": {
@@ -29,10 +27,9 @@
         "type": "Mirrorless",
         "price": "36,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam3_1.jpg",
+            "img2": "Camera/Cam3_2.jpg",
+            "img3": "Camera/Cam3_3.jpg"
         }
     },
     "camera4": {
@@ -41,10 +38,9 @@
         "type": "Mirrorless",
         "price": "51,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam4_1.jpg",
+            "img2": "Camera/Cam4_2.jpg",
+            "img3": "Camera/Cam4_3.jpg"
         }
     },
     "camera5": {
@@ -53,10 +49,9 @@
         "type": "Mirrorless",
         "price": "74,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam5_1.jpg",
+            "img2": "Camera/Cam5_2.jpg",
+            "img3": "Camera/Cam5_3.jpg"
         }
     },
     "camera6": {
@@ -65,10 +60,9 @@
         "type": "DSLR",
         "price": "35,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam6_1.jpg",
+            "img2": "Camera/Cam6_2.jpg",
+            "img3": "Camera/Cam6_3.jpg"
         }
     },
     "camera7": {
@@ -77,10 +71,9 @@
         "type": "DSLR",
         "price": "28,880 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam7_1.jpg",
+            "img2": "Camera/Cam7_2.jpg",
+            "img3": "Camera/Cam7_3.jpg"
         }
     },
     "camera8": {
@@ -89,10 +82,9 @@
         "type": "DSLR",
         "price": "16,900 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam8_1.jpg",
+            "img2": "Camera/Cam8_2.jpg",
+            "img3": "Camera/Cam8_3.jpg"
         }
     },
     "camera9": {
@@ -101,10 +93,9 @@
         "type": "DSLR",
         "price": "31,500 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam9_1.jpg",
+            "img2": "Camera/Cam9_2.jpg",
+            "img3": "Camera/Cam9_3.jpg"
         }
     },
     "camera10": {
@@ -113,10 +104,9 @@
         "type": "DSLR",
         "price": "71,000 Bath",
             "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam10_1.jpg",
+            "img2": "Camera/Cam10_2.jpg",
+            "img3": "Camera/Cam10_3.jpg"
         }
     },
     "camera11": {
@@ -125,10 +115,9 @@
         "type": "Mirrorless",
         "price": "54,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam11_1.jpg",
+            "img2": "Camera/Cam11_2.jpg",
+            "img3": "Camera/Cam11_3.jpg"
         }
     },
     "camera12": {
@@ -137,137 +126,40 @@
         "type": "Mirrorless",
         "price": "34,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera13": {
-        "name": "Fujifilm X-A5 Kit 15-45mm.",
-        "brand": "Fujifilm",
-        "type": "Mirrorless",
-        "price": "21,990 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera14": {
-        "name": "Fujifilm X-H1 (Body)",
-        "brand": "Fujifilm",
-        "type": "Mirrorless",
-        "price": "69,990 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera15": {
-        "name": "Fujifilm X-E3 Kit 18-55mm.",
-        "brand": "Fujifilm",
-        "type": "Mirrorless",
-        "price": "45,990 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera16": {
-        "name": "Canon EOS 7D Mark II 18-135mm.",
-        "brand": "Canon",
-        "type": "DSLR",
-        "price": "69,923 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera17": {
-        "name": "Canon EOS M6 Kit 18-150mm.",
-        "brand": "Canon",
-        "type": "Mirrorless",
-        "price": "36,990 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera18": {
-        "name": "Canon EOS 750D 18-55mm.",
-        "brand": "Canon",
-        "type": "DSLR",
-        "price": "30,900 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera19": {
-        "name": "Canon EOS M100 Kit 15-45mm.",
-        "brand": "Canon",
-        "type": "Mirrorless",
-        "price": "24,990 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
-        }
-    },
-    "camera20": {
-        "name": "Canon EOS 5D Mark IV Kit 24-70mm.",
-        "brand": "Canon",
-        "type": "DSLR",
-        "price": "152,898 Bath",
-        "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam12_1.jpg",
+            "img2": "Camera/Cam12_2.jpg",
+            "img3": "Camera/Cam12_3.jpg"
         }
     },
     
     "Lens1": {
-        "name": "Canon EF 14MM. F/2.8L II USM",
-        "brand": "Canon",
+        "name": "Fujinon XF 18MM. f/2 R",
+        "brand": "Fujifilm",
         "type": "Lens",
-        "price": "73,200 Bath",
+        "price": "6,990 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens1_1.jpg",
+            "img2": "Lens/Lens1_2.jpg"
         }
     },
     "Lens2": {
-        "name": "Canon EF 50MM. F/1.4",
-        "brand": "Canon",
+        "name": "Fujinon XF 16MM. f/1.4 R WR",
+        "brand": "Fujifilm",
         "type": "Lens",
-        "price": "73,200 Bath",
+        "price": "30,990 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens2_1.jpg",
+            "img2": "Lens/Lens2_2.jpg"
         }
     },
     "Lens3": {
-        "name": "Canon EF 180MM. F/3.5 MACRO L USM",
-        "brand": "Canon",
+        "name": "Fujinon XF 50-140MM. f/2.8 R LM OIS WR",
+        "brand": "Fujifilm",
         "type": "Lens",
-        "price": "50,650 Bath",
+        "price": "56,990 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens3_1.jpg",
+            "img2": "Lens/Lens3_2.jpg"
         }
     },
     "Lens4": {
@@ -276,8 +168,8 @@
         "type": "Lens",
         "price": "23,655 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens4_1.jpg",
+            "img2": "Lens/Lens4_2.jpg"
         }
     },
     "Lens5": {
@@ -286,8 +178,8 @@
         "type": "Lens",
         "price": "39,900 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens5_1.jpg",
+            "img2": "Lens/Lens5_2.jpg"
         }
     },
     "Lens6": {
@@ -296,8 +188,8 @@
         "type": "Lens",
         "price": "63,900 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens6_1.jpg",
+            "img2": "Lens/Lens6_2.jpg"
         }
     },
     "Lens7": {
@@ -306,8 +198,8 @@
         "type": "Lens",
         "price": "11,490 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens7_1.jpg",
+            "img2": "Lens/Lens7_2.jpg"
         }
     },
     "Lens8": {
@@ -316,8 +208,8 @@
         "type": "Lens",
         "price": "30,591 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens8_1.jpg",
+            "img2": "Lens/Lens8_2.jpg"
         }
     },
     "Lens9": {
@@ -326,38 +218,85 @@
         "type": "Lens",
         "price": "58,990 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Lens/Lens9_1.jpg",
+            "img2": "Lens/Lens9_2.jpg"
         }
     },
-    "Lens10": {
-        "name": "Fujinon XF 18MM. f/2 R",
-        "brand": "Fujifilm",
-        "type": "Lens",
-        "price": "6,990 Bath",
+    "Gopro1": {
+        "name": "GoPro HERO5",
+        "brand": "GoPro",
+        "type": "Action Camera",
+        "price": "10,800 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Gopro/gopro1_1.jpg",
+            "img2": "Gopro/gopro1_2.jpg",
+            "img3": "Gopro/gopro1_3.jpg"
         }
     },
-    "Lens11": {
-        "name": "Fujinon XF 16MM. f/1.4 R WR",
-        "brand": "Fujifilm",
-        "type": "Lens",
-        "price": "30,990 Bath",
+    "Gopro2": {
+        "name": "GoPro HERO6",
+        "brand": "GoPro",
+        "type": "Action Camera",
+        "price": "14,500 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Gopro/gopro2_1.jpg",
+            "img2": "Gopro/gopro2_2.jpg",
+            "img3": "Gopro/gopro2_3.jpg"
         }
     },
-    "Lens12": {
-        "name": "Fujinon XF 50-140MM. f/2.8 R LM OIS WR",
-        "brand": "Fujifilm",
-        "type": "Lens",
-        "price": "56,990 Bath",
+    "Gopro3": {
+        "name": "Ricoh THETA V",
+        "brand": "Ricoh",
+        "type": "360 Camera",
+        "price": "16,990 Bath",
         "img": {
-            "img1": "",
-            "img2": ""
+            "img1": "Gopro/gopro3_1.jpg",
+            "img2": "Gopro/gopro3_2.jpg",
+            "img3": "Gopro/gopro3_3.jpg"
         }
     },
+    "Gopro4": {
+        "name": "Insta360 Air for Micro USB",
+        "brand": "insta360",
+        "type": "360 Camera",
+        "price": "5,690 Bath",
+        "img": {
+            "img1": "Gopro/gopro4_1.jpg",
+            "img2": "Gopro/gopro4_2.jpg",
+            "img3": "Gopro/gopro4_3.jpg"
+        }
+    },
+    "Drone1": {
+        "name": "DJI Spark Fly More Combo",
+        "brand": "DJI",
+        "type": "Drone",
+        "price": "21,000 Bath",
+        "img": {
+            "img1": "Drone/drone1_1.jpg",
+            "img2": "Drone/drone1_2.jpg",
+            "img3": "Drone/drone1_3.jpg"
+        }
+    },
+    "Drone2": {
+        "name": "DJI Mavic Air Fly More Combo",
+        "brand": "DJI",
+        "type": "Drone",
+        "price": "37,500 Bath",
+        "img": {
+            "img1": "Drone/drone2_1.jpg",
+            "img2": "Drone/drone2_2.jpg",
+            "img3": "Drone/drone2_3.jpg"
+        }
+    },
+    "Drone3": {
+        "name": "DJI mavic pro fly more combo",
+        "brand": "DJI",
+        "type": "Drone",
+        "price": "43,290 Bath",
+        "img": {
+            "img1": "Drone/drone3_1.jpg",
+            "img2": "Drone/drone3_2.jpg",
+            "img3": "Drone/drone3_3.jpg"
+        }
+    }
 }

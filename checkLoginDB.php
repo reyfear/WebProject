@@ -1,10 +1,12 @@
 <?php
-  $servername = "localhost";
-  $username = "grapescandal";
-  $password = "admin";
-  $dbname = "MDT419";
-  $tablename = "LKuserDB";
-  session_start();
+	$servername = "localhost";
+	$username = "reyfear";
+	$password = "001122";
+	$dbname = "mdt419";
+  $tablename = "lkuserDB";    
+    
+    session_start();
+    $conn = new mysqli($servername, $username, $password, $dbname);
 
   $_SESSION['email'] = $_GET["email"];
   $_SESSION['password'] = $_GET["password"];

@@ -134,7 +134,7 @@ p{
     font-family: 'Kanit', sans-serif;
     padding: 10px;
     width:80px;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 10px;
     border-width: 0px;
     background-color: rgb(189, 240, 255);
@@ -375,7 +375,7 @@ p.header{
     text-align: center;
     align-items: center;
     justify-content: center;
-    width: 400px;
+    width: 450px;
     height: 500px;
     background:linear-gradient(to left bottom, rgb(173, 173, 255),rgb(179, 215, 255) );
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -452,3 +452,35 @@ p.space{
     outline: none;
     background-color: rgb(172, 172, 172);
 }
+
+/*////////////////////////////////*/
+
+.layerregis{
+    justify-content: center;
+    display: flex;
+}
+.headregis{
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.regisbar{    
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 180px;
+    height: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.addressbar{    
+    column-count: auto;
+    padding-left: 10px;
+    font-size: 14px;
+    border-radius: 8px;
+    border-width: 0px;
+    width: 180px;
+    height: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
