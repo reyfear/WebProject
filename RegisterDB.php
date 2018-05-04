@@ -1,14 +1,14 @@
 <?php
 	$servername = "localhost";
-	$username = "reyfear";
-	$password = "001122";
+	$username = "grapescandal";
+	$password = "admin";
 	$dbname = "mdt419";
   $tablename = "lkuserDB";
 
-    $email = $_GET["email"];
-    $pass = $_GET["password"];
-    $repassword = $_GET["repassword"];
-    $address = $_GET["address"];
+  $email = $_GET["email"];
+  $pass = $_GET["password"];
+  $repassword = $_GET["repassword"];
+  $address = $_GET["address"];
 	$telephone = $_GET["telephone"];
 	$name = $_GET["name"] . " " . $_GET["surname"];
 
