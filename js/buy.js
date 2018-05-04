@@ -5,6 +5,10 @@ function pageLoad(){
   for (var i = 0; i < allBuyBtn.length; i++) {
     allBuyBtn[i].addEventListener('click', gotoInfo, true);
   }
+
+  // var element = document.createElement("script");
+  // element.src = "advertise.js";
+  // document.body.childNodes[0].appendChild(element);
 }
 
 function gotoInfo() {

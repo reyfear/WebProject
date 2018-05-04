@@ -9,7 +9,7 @@
 	</head>
 <body>
 	<div class="grid-nav">
-		<div class="grid-item" id="item1"><img src="logo.png"> </div>
+		<div class="grid-item" id="item1"><img src="images/logo.png"> </div>
 		<div class="grid-item" id="item2"><input class="search" type="text" placeholder="Search.."></div>
 		<div class="grid-item" id="item3">
 			<a class="padnav">Home</a>
@@ -34,11 +34,11 @@
 				</div>
 			</div>
 			<div class="infopictab">
-					<img class="piccaminfo"   src="a7iii_info.jpg">
+					<img class="piccaminfo"   src="images/a7iii_info.jpg">
 					<div class="grid-item" id="piccamother">
-						<img src="a7iii_info.jpg" width="100px" height="100px " >
-						<img src="a7iii_info.jpg" width="100px" height="100px " >
-						<img src="a7iii_info.jpg" width="100px" height="100px " >
+						<img src="images/a7iii_info.jpg" width="100px" height="100px " >
+						<img src="images/a7iii_info.jpg" width="100px" height="100px " >
+						<img src="images/a7iii_info.jpg" width="100px" height="100px " >
 					</div>
 
 			</div>
