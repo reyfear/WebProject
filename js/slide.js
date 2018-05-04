@@ -2,6 +2,11 @@
 var btnAD = [];
 var myIndex = 0;
 
+//timer
+var t;
+
+setAD();
+
 function carousel() {
     var i;
     var x = document.getElementsByClassName("mySlides");

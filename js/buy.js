@@ -6,9 +6,9 @@ function pageLoad(){
     allBuyBtn[i].addEventListener('click', gotoInfo, true);
   }
 
-  // var element = document.createElement("script");
-  // element.src = "advertise.js";
-  // document.body.childNodes[0].appendChild(element);
+  var element = document.createElement("script");
+  element.src = "js/slide.js";
+  document.body.childNodes[0].appendChild(element);
 }
 
 function gotoInfo() {
