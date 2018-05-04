@@ -5,10 +5,9 @@
         "type": "Mirrorless",
         "price": "23,990 Bath",
         "img": {
-            "img1": "",
-            "img2": "",
-            "img3": "",
-            "img4": ""
+            "img1": "Camera/Cam1_1",
+            "img2": "Camera/Cam1_2",
+            "img3": "Camera/Cam1_3"
         }
     },
     "camera2": {
@@ -19,8 +18,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera3": {
@@ -31,8 +29,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera4": {
@@ -43,8 +40,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera5": {
@@ -55,8 +51,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera6": {
@@ -67,8 +62,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera7": {
@@ -79,8 +73,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera8": {
@@ -91,8 +84,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera9": {
@@ -103,8 +95,7 @@
         "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera10": {
@@ -115,8 +106,7 @@
             "img": {
             "img1": "",
             "img2": "",
-            "img3": "",
-            "img4": ""
+            "img3": ""
         }
     },
     "camera11": {
