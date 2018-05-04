@@ -4,7 +4,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="Style1.css"/>
 		<title>Insert title here</title>
-		<metaname="viewport"content="width=devicewidth, initial-scale=1.0"> 
+		<metaname="viewport"content="width=devicewidth, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 	</head>
 <body>
@@ -16,9 +16,9 @@
 			<a class="padnav">Product</a>
 			<a class="padnav">Howto</a>
 			<a class="padnav">Contact</a>
-		</div>		
+		</div>
 	</div>
-	
+
 		<div class="grid-info">
 			<div class="logintab">
 				<div class="loginpad">
@@ -40,15 +40,15 @@
 						<img src="a7iii_info.jpg" width="100px" height="100px " >
 						<img src="a7iii_info.jpg" width="100px" height="100px " >
 					</div>
-					
+
 			</div>
 
 			<div class="infodatatab">
 				<div class="infodata">
-					<p class="space">Name: </p> 
+					<p class="space">Name: </p>
 					<p>Sony A7 markIII</p>
-					
-				</div>				
+
+				</div>
 				<div class="infodata">
 					<p class="space">Brand:</p>
 					<p>Sony</p>
@@ -61,29 +61,29 @@
 					<p class="space">Number </p>
 					<input class="numbar" type="text">
 					<p> Piece</p>
-					</div>	
+					</div>
 				<div class="infodatapircetab">
 					<div class="infodata">
 					<p class="space">Price </p>
-					
+
 					<p class="space"> 50,000</p>
 					<p>Bath</p>
 					</div>
-					
+
 					<div class="grid-item" id="#buy">
 						<button class="buybtn">Buy Now</button>
 						<button class="buybtn">Add to Cart</button>
 					</div>
-				</div>	
-					
+				</div>
+
 			</div>
 		</div>
 
-		
-		
 
-		
-	
-	
+
+
+
+
+
 </body>
 </html>
