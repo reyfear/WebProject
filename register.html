@@ -9,7 +9,7 @@
 	</head>
 <body>
 	<div class="grid-nav">
-		<div class="grid-item" id="item1"><img src="logo.png"> </div>
+		<div class="grid-item" id="item1"><img src="Images/logo.png"> </div>
 		<div class="grid-item" id="item2"><input class="search" type="text" placeholder="Search.."></div>
 		<div class="grid-item" id="item3">
 			<a class="padnav">Home</a>
@@ -23,43 +23,46 @@
 		
 			<form class="infodatatab" name="myForm" id="myForm" action="login.html">
 			
-				<legend class="ft">Register</legend>
-				<span>* require</span> <br>
+				<legend class="headregis">Register</legend>
+				<span>*require</span> <br>
 				<span id="errormsg"></span> <br>
 				
 			<div class="layerregis">
 				<div>
 					Email address*: 
-					<input class="bt2" type="email" name="email"required >
+					<input class="regisbar" type="email" name="email"required >
 					<br><br>
 					Username*: 
-					<input class="bt2" type="text" name="username" required>
+					<input class="regisbar" type="text" name="username" required>
 					<br><br>
 					Password*: 
-					<input class="bt2" type="password" name="password" required>
+					<input class="regisbar" type="password" name="password" required>
 					<br><br>
 					Retype Password*: 
-					<input class="bt2" type="password" name="repassword" required>
+					<input class="regisbar" type="password" name="repassword" required>
 					<br><br>
 					
 				</div>
 				<div>
-					<img src="BarImages/center.png" height="300px"/>
+					<img src="Images/BarImages/center.png" height="300px"/>
 				</div>
 				<div>
 					Name*: 
-					<input class="bt2" type="text" name="firstname" required>
+					<input class="regisbar" type="text" name="name" required>
 					<br><br>
-					Name*: 
-					<input class="bt2" type="text" name="firstname" required>
+					Surname*: 
+					<input class="regisbar" type="text" name="surname" required>
 					<br><br>
-					Name*: 
-					<input class="bt2" type="text" name="firstname" required>
+					Address*: 
+					<input class="addressbar" type="text" name="address" required>
+					<br><br>
+					Telephone*: 
+					<input class="regisbar" type="text" name="telephone" required>
 					<br><br>
 				</div>
 			</div>
-			<div><input class="bt" type="submit" value="Register">
-				<input class="bt" type="reset" value="Reset">
+			<div><input class="loginbtn" type="submit" value="Register">
+				
 			</div>
 		</form>
 
