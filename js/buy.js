@@ -13,6 +13,10 @@ function pageLoad(){
 	var categoryJS = document.createElement("script");
 	categoryJS.src = "js/category.js";
 	document.body.childNodes[0].appendChild(categoryJS);
+
+	var allButton = document.createElement("script");
+	allButton.src = "js/button.js";
+	document.body.childNodes[0].appendChild(allButton);
 }
 
 function gotoInfo() {
