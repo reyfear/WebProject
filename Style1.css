@@ -18,6 +18,10 @@ p{
 
 }
 
+.categoryBtn {
+
+}
+
 #item1{
     text-align:center;
     display:flex;
@@ -170,6 +174,15 @@ p{
 #item6:hover {
     background-color: rgb(211, 173, 255);
 }
+#item6Click {
+  cursor: pointer;
+  padding: 10px;
+  min-width: 120px;
+  text-align:center;
+  align-items:center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(211, 173, 255);
+}
 #item7{
     cursor: pointer;
     padding: 10px;
@@ -181,6 +194,15 @@ p{
 }
 #item7:hover {
     background-color: rgb(255, 173, 173);
+}
+#item7Click {
+  cursor: pointer;
+  padding: 10px;
+  min-width: 120px;
+  text-align:center;
+  align-items:center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(255, 173, 173);
 }
 #item8{
     cursor: pointer;
@@ -194,6 +216,15 @@ p{
 #item8:hover {
     background-color: rgb(173, 199, 255);
 }
+#item8Click {
+  cursor: pointer;
+  padding: 10px;
+  min-width: 120px;
+  text-align:center;
+  align-items:center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(173, 199, 255);
+}
 #item9{
     cursor: pointer;
     padding: 10px;
@@ -205,6 +236,15 @@ p{
 }
 #item9:hover {
     background-color: rgb(173, 255, 217);
+}
+#item9Click {
+  cursor: pointer;
+  padding: 10px;
+  min-width: 120px;
+  text-align:center;
+  align-items:center;
+  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  background-color: rgb(173, 255, 217);
 }
 
 .iconHead{
@@ -378,7 +418,8 @@ p.space{
 /*Ad*/
 .mySlides{
     /* width:60%; */
-    width: 700px;
+    width: 800px;
+    height: 350px;
     box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.2);
 }
 
