@@ -20,5 +20,5 @@ function pageLoad(){
 }
 
 function gotoInfo() {
-  document.location.href = "http://localhost/MDT419/WebProject/info.php";
+  document.location.href = "http://localhost/MDT419/WebProject/info.html";
 }
