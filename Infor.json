@@ -139,7 +139,8 @@
         "price": "6,990",
         "img": {
             "img1": "Lens/Lens1_1.jpg",
-            "img2": "Lens/Lens1_2.jpg"
+            "img2": "Lens/Lens1_2.jpg",
+            "img3": "Lens/Lens1_3.jpg"
         }
     },
     "Lens2": {
@@ -149,7 +150,8 @@
         "price": "30,990",
         "img": {
             "img1": "Lens/Lens2_1.jpg",
-            "img2": "Lens/Lens2_2.jpg"
+            "img2": "Lens/Lens2_2.jpg",
+            "img3": "Lens/Lens2_3.jpg"
         }
     },
     "Lens3": {
@@ -159,7 +161,8 @@
         "price": "56,990",
         "img": {
             "img1": "Lens/Lens3_1.jpg",
-            "img2": "Lens/Lens3_2.jpg"
+            "img2": "Lens/Lens3_2.jpg",
+            "img3": "Lens/Lens3_3.jpg"
         }
     },
     "Lens4": {
@@ -169,7 +172,8 @@
         "price": "23,655",
         "img": {
             "img1": "Lens/Lens4_1.jpg",
-            "img2": "Lens/Lens4_2.jpg"
+            "img2": "Lens/Lens4_2.jpg",
+            "img3": "Lens/Lens4_3.jpg"
         }
     },
     "Lens5": {
@@ -179,7 +183,8 @@
         "price": "39,900",
         "img": {
             "img1": "Lens/Lens5_1.jpg",
-            "img2": "Lens/Lens5_2.jpg"
+            "img2": "Lens/Lens5_2.jpg",
+            "img3": "Lens/Lens5_3.jpg"
         }
     },
     "Lens6": {
@@ -189,7 +194,8 @@
         "price": "63,900",
         "img": {
             "img1": "Lens/Lens6_1.jpg",
-            "img2": "Lens/Lens6_2.jpg"
+            "img2": "Lens/Lens6_2.jpg",
+            "img3": "Lens/Lens6_3.jpg"
         }
     },
     "Lens7": {
@@ -199,7 +205,8 @@
         "price": "11,490",
         "img": {
             "img1": "Lens/Lens7_1.jpg",
-            "img2": "Lens/Lens7_2.jpg"
+            "img2": "Lens/Lens7_2.jpg",
+            "img3": "Lens/Lens7_3.jpg"
         }
     },
     "Lens8": {
@@ -209,7 +216,8 @@
         "price": "30,591",
         "img": {
             "img1": "Lens/Lens8_1.jpg",
-            "img2": "Lens/Lens8_2.jpg"
+            "img2": "Lens/Lens8_2.jpg",
+            "img3": "Lens/Lens8_3.jpg"
         }
     },
     "Lens9": {
@@ -219,7 +227,8 @@
         "price": "58,990",
         "img": {
             "img1": "Lens/Lens9_1.jpg",
-            "img2": "Lens/Lens9_2.jpg"
+            "img2": "Lens/Lens9_2.jpg",
+            "img3": "Lens/Lens9_3.jpg"
         }
     },
     "Gopro1": {

@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "grapescandal";
-	$password = "admin";
+	$username = "reyfear";
+	$password = "001122";
 	$dbname = "mdt419";
 	$tablename = "lkuserDB";
 
@@ -10,19 +10,21 @@
 
   $_SESSION['email'] = $_GET["email"];
   $_SESSION['password'] = $_GET["password"];
+  $_SESSION['name'] = '';
   $conn = new mysqli($servername, $username, $password, $dbname);
 
   if($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
 	}
 
-	$sql = "SELECT email, password FROM $tablename";
+	$sql = "SELECT email, password, name FROM $tablename";
 	$result = $conn->query($sql);
 
   if($result->num_rows > 0) {
     while($row = $result->fetch_assoc()) {
       if($_SESSION['email'] == $row["email"] && $_SESSION['password'] == $row["password"]) {
-        header("Location: http://localhost/MDT419/WebProject/index.html");
+        $_SESSION['name'] = $row['name'];
+        header("Location: http://localhost/MDT419/WebProject/index.php");
         exit;
       }
     }

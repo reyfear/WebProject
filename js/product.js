@@ -9,7 +9,7 @@ function readProductData() {
 
       peopleArray = Object.keys(productInfo).map(i => productInfo[i]);
 
-      if(window.location.href.indexOf("index.html") > -1) {
+      if(window.location.href.indexOf("index.php") > -1) {
         for(var count = 0; count < peopleArray.length; count++) {
           var container = document.getElementById("template_product").cloneNode(true);
           container.getElementsByClassName("header")[0].innerHTML = peopleArray[count].name;
@@ -40,5 +40,5 @@ function gotoInfo() {
   text = "Ho";
   var infoClicked = this.parentNode.id;
   localStorage.setItem("productInfo", infoClicked);
-  window.location.href = "http://localhost/MDT419/WebProject/info.html";
+  window.location.href = "http://localhost/MDT419/WebProject/info.php";
 }

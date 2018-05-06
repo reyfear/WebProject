@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "grapescandal";
-	$password = "admin";
+	$username = "reyfear";
+	$password = "001122";
 	$dbname = "mdt419";
   $tablename = "lkuserDB";
 
@@ -38,7 +38,7 @@
 
 	if($conn->query($sql) === TRUE) {
 		echo "ID Created";
-    header("Location: http://localhost/MDT419/WebProject/index.html");
+    header("Location: http://localhost/MDT419/WebProject/index.php");
     exit;
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
