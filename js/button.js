@@ -4,3 +4,10 @@ registerBtn.addEventListener("click", gotoRegister);
 function gotoRegister(){
   document.location.href = "http://localhost/MDT419/WebProject/register.html"
 }
+
+$("#productBtn").on('click', function(event) {
+    event.preventDefault();
+    $('html, body').animate({
+      scrollTop: $(".grid-third").offset().top
+    }, 800);
+});

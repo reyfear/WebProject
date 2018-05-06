@@ -1,19 +1,19 @@
 <?php
 	$servername = "localhost";
-	$username = "reyfear";
-	$password = "001122";
+	$username = "grapescandal";
+	$password = "admin";
 	$dbname = "mdt419";
-    $tablename = "lkuserDB";  
-	
-    $email = $_GET["email"];
-    $pass = $_GET["password"];
-    $repassword = $_GET["repassword"];
-    $address = $_GET["address"];
+  $tablename = "lkuserDB";
+
+  $email = $_GET["email"];
+  $pass = $_GET["password"];
+  $repassword = $_GET["repassword"];
+  $address = $_GET["address"];
 	$telephone = $_GET["telephone"];
 	$name = $_GET["name"] . " " . $_GET["surname"];
-	
+
 	$conn = new mysqli($servername, $username, $password, $dbname);
-	
+
 	$sql = "SELECT email FROM $tablename";
 	$result = $conn->query($sql);
 
@@ -27,7 +27,6 @@
 				$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
 				VALUES ('$email', $pass, '$address', '$telephone', '$name')";
 			}
-		  
 		}
 
 	} else {

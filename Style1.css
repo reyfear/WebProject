@@ -26,7 +26,7 @@ p{
     text-align:center;
     display:flex;
     align-items:center;
-
+    cursor: pointer;
 
 }
 #item2{
@@ -426,7 +426,7 @@ p.space{
 }
 
 .AD{
-    
+
     width: 100%;
     height: auto;
     display: flex;
@@ -467,7 +467,7 @@ p.space{
     font-size: 25px;
 }
 
-.regisbar{    
+.regisbar{
     padding-left: 10px;
     font-size: 14px;
     border-radius: 8px;
@@ -476,7 +476,7 @@ p.space{
     height: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.addressbar{    
+.addressbar{
     column-count: auto;
     padding-left: 10px;
     font-size: 14px;
@@ -486,4 +486,3 @@ p.space{
     height: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-
