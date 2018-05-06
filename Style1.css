@@ -117,14 +117,14 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .loginpad{
-    
+    display: none;
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 15px;
 }
 .logoutpad{
-    display: none;
+    
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
@@ -516,10 +516,19 @@ p.space{
     height: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+.grid-contact{
+    margin-top: 30px;
+    justify-content: space-around;
+    display: flex;
+    min-width: 960px;
+    margin-bottom: 30px;
+ 
+ }
 .contactdatatab{
     margin-left: 40px;
     padding-left: 30px;
     padding-right: 30px;
+    margin-right: 20%;
     border-radius: 15px;
     text-align: center;
     align-items: center;
