@@ -1,22 +1,21 @@
 var productClicked= localStorage.getItem("productInfo");
-var peopleArray = [];
 readProductData();
-displayInfo();
 
 function readProductData() {
   console.log(productClicked);
   var xhr = new XMLHttpRequest();
-  xhr.open("GET", "infor.json", false);
+  xhr.open("GET", "infor.json");
   xhr.onreadystatechange = function(evt){
     if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
       var productInfo = JSON.parse(xhr.response);
-      peopleArray = Object.keys(productInfo).map(i => productInfo[i]);
+      var peopleArray = Object.keys(productInfo).map(i => productInfo[i]);
+      displayInfo(peopleArray);
     }
   };
   xhr.send();
 }
 
-function displayInfo() {
+function displayInfo(peopleArray) {
   if(productClicked !== "") {
     var infoNumber = parseInt(productClicked);
     var infoDataTemplate = document.getElementById("info_template");
