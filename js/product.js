@@ -1,5 +1,4 @@
-readProductData();
-var peopleArray = [];
+var peopleArray = readProductData();
 
 function readProductData() {
   var xhr = new XMLHttpRequest();
@@ -27,6 +26,7 @@ function readProductData() {
     }
   };
   xhr.send();
+  return peopleArray;
 }
 
 function initProductPic() {
@@ -37,6 +37,7 @@ function initProductPic() {
 }
 
 function gotoInfo() {
+  text = "Ho";
   var infoClicked = this.parentNode.id;
   localStorage.setItem("productInfo", infoClicked);
   window.location.href = "http://localhost/MDT419/WebProject/info.html";

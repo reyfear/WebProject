@@ -108,7 +108,7 @@ p{
     display: flex;
 }
 
-.logintab{    
+.logintab{
     border-radius: 15px;
     text-align: center;
     width: 300px;
@@ -117,7 +117,7 @@ p{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 .loginpad{
-    
+
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
@@ -560,4 +560,12 @@ p.cspace{
     height: 300px;
     width: 500px;
 
+}
+.bath {
+  padding-left: 20px;
+}
+
+.productInfo_img {
+  cursor: pointer;
+  user-select: none;
 }
