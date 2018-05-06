@@ -6,9 +6,11 @@ function pageLoad(){
     allproductpic[i].addEventListener('click', gotoInfo, true);
   }
 
-  var slideJS = document.createElement("script");
-  slideJS.src = "js/slide.js";
-  document.body.childNodes[0].appendChild(slideJS);
+	if(document.location.href === "http://localhost/MDT419/webproject/index.html") {
+		var slideJS = document.createElement("script");
+		slideJS.src = "js/slide.js";
+		document.body.childNodes[0].appendChild(slideJS);
+	}
 
 	var categoryJS = document.createElement("script");
 	categoryJS.src = "js/category.js";
