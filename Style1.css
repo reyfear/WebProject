@@ -78,6 +78,7 @@ p{
 
 }
 .grid-content{
+    
 
 }
 .grid-second{
@@ -160,8 +161,8 @@ p{
     min-width: 960px;
     margin-bottom: 30px;
     align-items: center;
-    background-color: rgb(238, 238, 238);
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    
+    
 
 }
 #item6{
@@ -171,7 +172,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    
 }
 #item6:hover {
     background-color: rgb(211, 173, 255);
@@ -182,7 +183,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+ 
   background-color: rgb(211, 173, 255);
 }
 #item7{
@@ -192,7 +193,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    
 }
 #item7:hover {
     background-color: rgb(255, 173, 173);
@@ -203,7 +204,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  
   background-color: rgb(255, 173, 173);
 }
 #item8{
@@ -213,7 +214,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    
 }
 #item8:hover {
     background-color: rgb(173, 199, 255);
@@ -224,7 +225,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+  
   background-color: rgb(173, 199, 255);
 }
 #item9{
@@ -234,7 +235,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+   
 }
 #item9:hover {
     background-color: rgb(173, 255, 217);
@@ -245,7 +246,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  box-shadow: 0px 3px 3px 0px rgba(0, 0, 0, 0.2);
+ 
   background-color: rgb(173, 255, 217);
 }
 
@@ -259,8 +260,10 @@ p{
     display: grid;
     grid-template-columns: auto auto auto ;
     grid-gap: 0px;
-    margin-top: 0px;
+    margin-top: -30px;
+   
     align-items: center;
+    background-color: aliceblue;
 
 }
 
