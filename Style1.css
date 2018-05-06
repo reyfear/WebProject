@@ -119,14 +119,15 @@ p{
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 15px;
-    display: none;
+    
 }
 .logoutpad{
-    
+    display: none;
     padding-top: 15px;
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 15px;
+    
 }
 .logoutbtn{
     font-family: 'Kanit', sans-serif;

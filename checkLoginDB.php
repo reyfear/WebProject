@@ -11,6 +11,8 @@
   $_SESSION['email'] = $_GET["email"];
   $_SESSION['password'] = $_GET["password"];
   $_SESSION['name'] = '';
+  $_SESSION['login'] = 'block';
+  $_SESSION['logout'] = 'none';
   $conn = new mysqli($servername, $username, $password, $dbname);
 
   if($conn->connect_error) {
@@ -25,6 +27,8 @@
       if($_SESSION['email'] == $row["email"] && $_SESSION['password'] == $row["password"]) {
         $_SESSION['name'] = $row['name'];
         header("Location: http://localhost/MDT419/WebProject/index.php");
+        $_SESSION['login'] = 'none';
+        $_SESSION['logout'] = 'block';
         exit;
       }
     }
@@ -34,3 +38,4 @@
     echo "0 results";
   }
 ?>
+

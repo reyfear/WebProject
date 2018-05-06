@@ -1,3 +1,16 @@
+<?php
+	session_start();
+	// $name = "";
+	// if(isset($_SESSION["email"]) && isset($_SESSION["password"])){
+	// 	$name = $_SESSION['name'];
+	// }
+	// else{
+	// 	session_unset();
+	// 	header("Location: http://localhost/MDT419/Webproject/index.php");
+	// 	exit;
+	// }
+?>
+
 <!DOCTYPE html>
 <html>
 	<head>
@@ -22,7 +35,7 @@
 		<div class="grid-info">
 			<form action="checkLoginDB.php" method="get" accept-charset="utf-8" class="form">
 				<div id="logbtn" class="logintab">
-					<div class="loginpad">
+					<div class="loginpad" style = "display: <?php echo $_SESSION['login']?>">
 						<h2>Login</h2>
 						<p class="logintextpad">E-mail</p>
 						<input class="loginbar" name="email" type="text">
@@ -33,8 +46,19 @@
 							<button type="button" class="loginbtn" id="Register">Register</button>
 						</div>
 					</div>
+					</form>
+					<form action="checkLogout.php" method="get" accept-charset="utf-8" class="form">
+					<div class="logoutpad" style = "display: <?php echo $_SESSION['logout']?>">
+						<img class="profilepic" src="images/chico.png">
+
+							<p class="spacelogout"><?php echo $_SESSION['name']?></p>
+							<div>
+								<button type="submit" class="logoutbtn" id="Logout">Logout</button>
+							</div>
+					</div>
+					</form>
 				</div>
-			</form>
+			
 			<div class="infopictab" id="infoPic_template">
 					<img class="piccaminfo" id="productImg"src="images/a7iii_info.jpg">
 					<div class="grid-item" id="piccamother">

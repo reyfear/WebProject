@@ -4,11 +4,11 @@
 	if(isset($_SESSION["email"]) && isset($_SESSION["password"])){
 		$name = $_SESSION['name'];
 	}
-	else{
-		session_unset();
-		header("Location: http://localhost/MDT419/Webproject/index.php");
-		exit;
-	}
+	// else{
+	// 	//session_unset();
+	// 	header("Location: http://localhost/MDT419/Webproject/index.php");
+	// 	//exit;
+	// }
 ?>
 
 <!DOCTYPE html>
@@ -32,9 +32,10 @@
 	</div>
 		<div class="grid-content">
 			<div class="grid-second">
-				<form action="checkLoginDB.php" method="get" accept-charset="utf-8" class="form">
+				
 				<div id="logbtn" class="logintab">
-					<div class="loginpad">
+				<form action="checkLoginDB.php" method="get" accept-charset="utf-8" class="form">
+					<div class="loginpad" style = "display: <?php echo $_SESSION['login']?>">
 						<h2>Login</h2>
 						<p class="logintextpad">E-mail</p>
 						<input class="loginbar" name="email" type="text">
@@ -45,16 +46,19 @@
 							<button type="button" class="loginbtn" id="Register">Register</button>
 						</div>
 					</div>
-					<div class="logoutpad">
+					</form>
+					<form action="checkLogout.php" method="get" accept-charset="utf-8" class="form">
+					<div class="logoutpad" style = "display: <?php echo $_SESSION['logout']?>">
 						<img class="profilepic" src="images/chico.png">
 
 							<p class="spacelogout"><?php echo $_SESSION['name']?></p>
 							<div>
-								<button type="button" class="logoutbtn" id="Logout">Logout</button>
+								<button type="submit" class="logoutbtn" id="Logout">Logout</button>
 							</div>
 					</div>
+					</form>
 				</div>
-			</form>
+			
 			<div class="adcontent">
 			<div class="AD">
 			    <img class="mySlides" src="images/slide/slide01.png">
@@ -97,5 +101,6 @@
 	<script src="js/createAllJS.js"></script>
 	<script src="js/product.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	
 </body>
 </html>
