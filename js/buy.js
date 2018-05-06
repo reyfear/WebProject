@@ -1,11 +1,13 @@
 window.onload = pageLoad;
 
 function pageLoad(){
+	console.log("create");
 	var allproductpic = document.querySelectorAll(".productpic");
   for (var i = 0; i < allproductpic.length; i++) {
     allproductpic[i].addEventListener('click', gotoInfo, true);
   }
 
+	console.log(document.location.href);
 	if(document.location.href === "http://localhost/MDT419/webproject/index.html") {
 		var slideJS = document.createElement("script");
 		slideJS.src = "js/slide.js";
