@@ -9,6 +9,7 @@ function readProductData() {
     if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
       var productInfo = JSON.parse(xhr.response);
       var peopleArray = Object.keys(productInfo).map(i => productInfo[i]);
+      console.log(peopleArray);
       displayInfo(peopleArray);
     }
   };
