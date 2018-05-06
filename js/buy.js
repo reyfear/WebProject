@@ -6,7 +6,7 @@ function pageLoad(){
     allproductpic[i].addEventListener('click', gotoInfo, true);
   }
 
-	if(document.location.href === "http://localhost/MDT419/webproject/index.html") {
+	if(window.location.href.indexOf("index.html") > -1) {
 		var slideJS = document.createElement("script");
 		slideJS.src = "js/slide.js";
 		document.body.childNodes[0].appendChild(slideJS);
@@ -19,8 +19,14 @@ function pageLoad(){
 	var allButton = document.createElement("script");
 	allButton.src = "js/button.js";
 	document.body.childNodes[0].appendChild(allButton);
+
+	if(window.location.href.indexOf("index.html") > -1 || window.location.href.indexOf("info.html") > -1) {
+			var allProduct = document.createElement("script");
+			allProduct.src = "js/product.js";
+			document.body.childNodes[0].appendChild(allProduct);
+	}
 }
 
 function gotoInfo() {
-  document.location.href = "http://localhost/MDT419/WebProject/info.html";
+  window.location.href = "http://localhost/MDT419/WebProject/info.html";
 }

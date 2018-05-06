@@ -14,8 +14,7 @@
 		<div class="grid-item" id="item3">
 			<a class="padnav" onclick="location.href = 'index.html';">Home</a>
 			<a class="padnav" id="productBtn">Product</a>
-			<a class="padnav">Howto</a>
-			<a class="padnav">Contact</a>
+			<a class="padnav" onclick="location.href = 'contact.html';">Contact</a>
 		</div>
 	</div>
 		<div class="grid-content">
@@ -32,6 +31,14 @@
 							<button type="submit" class="loginbtn" id="Login">Login</button>
 							<button type="button" class="loginbtn" id="Register">Register</button>
 						</div>
+					</div>
+					<div class="logoutpad">
+						<img class="profilepic" src="images/chico.png">
+							
+							<p class="spacelogout">PeeAof</p>
+							<div>
+								<button type="button" class="logoutbtn" id="Logout">Logout</button>
+							</div>
 					</div>
 				</div>
 			</form>
@@ -61,116 +68,39 @@
 				<div class="categoryBtn" id="item9">
 					<img class="iconHead" src="images/drone.png" >
 				</div>
-
-				<div class="grid-item" id="product">
-									<div class="card">
-										<p class="header">Sony A7 markIII</p>
-										<img class="productpic" src="images/sony_a7iii.png">
-										<div class="container">
-											<p class="price">$199</p>
-											<p><button class="buyBtn">Buy Now</button></p>
-										</div>
-									</div>
-
-									<div class="card">
-										<p class="header">Sony A7 markIII</p>
-										<img class="productpic" src="images/sony_a7iii.png">
-										<div class="container">
-											<p class="price">$199</p>
-											<p><button class="buyBtn">Buy Now</button></p>
-										</div>
-									</div>
-
-									<div class="card">
-										<p class="header">Sony A7 markIII</p>
-										<img class="productpic" src="images/sony_a7iii.png">
-										<div class="container">
-											<p class="price">$199</p>
-											<p><button class="buyBtn">Buy Now</button></p>
-										</div>
-									</div>
-
-					</div>
-
-					<div class="grid-item" id="product">
-
-
-							<div class="card">
-								<p class="header">Sony A7 markIII</p>
-								<img class="productpic" src="images/sony_a7iii.png">
-								<div class="container">
-									  <p class="price">$199</p>
-									<p><button class="buyBtn">Buy Now</button></p>
-								</div>
-							</div>
-
-							<div class="card">
-								<p class="header">Sony A7 markIII</p>
-								<img class="productpic" src="images/sony_a7iii.png">
-								<div class="container">
-									<p class="price">$199</p>
-									<p><button class="buyBtn">Buy Now</button></p>
-								</div>
-							</div>
-
-							<div class="card">
-								<p class="header">Sony A7 markIII</p>
-								<img class="productpic" src="images/sony_a7iii.png">
-								<div class="container">
-									<p class="price">$199</p>
-									<p><button class="buyBtn">Buy Now</button></p>
-								</div>
-							</div>
-
-			</div>
-
-			<div class="grid-item" id="product">
-
-
-					<div class="card">
-						<p class="header">Sony A7 markIII</p>
-						<img class="productpic" src="images/sony_a7iii.png">
-						<div class="container">
-							  <p class="price">$199</p>
-							<p><button class="buyBtn">Buy Now</button></p>
-						</div>
-					</div>
-
-					<div class="card">
-						<p class="header">Sony A7 markIII</p>
-						<img class="productpic" src="images/sony_a7iii.png">
-						<div class="container">
-							<p class="price">$199</p>
-							<p><button class="buyBtn">Buy Now</button></p>
-						</div>
-					</div>
-
-					<div class="card">
-						<p class="header">Sony A7 markIII</p>
-						<img class="productpic" src="images/sony_a7iii.png">
-						<div class="container">
-							<p class="price">$199</p>
-							<p><button class="buyBtn">Buy Now</button></p>
-						</div>
-					</div>
-
-	</div>
+			
 		</div>
+		<div class="grid-item" id="product">
+				<div class="card">
+					<p class="header">Sony A7 markIII</p>
+					<img class="productpic" src="images/sony_a7iii.png">
+					<div class="container">
+						<p class="price">$199</p>
+						<p><button class="buyBtn">Buy Now</button></p>
+					</div>
+				</div>
+
+				<div class="card">
+					<p class="header">Sony A7 markIII</p>
+					<img class="productpic" src="images/sony_a7iii.png">
+					<div class="container">
+						<p class="price">$199</p>
+						<p><button class="buyBtn">Buy Now</button></p>
+					</div>
+				</div>
+
+				<div class="card">
+					<p class="header">Sony A7 markIII</p>
+					<img class="productpic" src="images/sony_a7iii.png">
+					<div class="container">
+						<p class="price">$199</p>
+						<p><button class="buyBtn">Buy Now</button></p>
+					</div>
+				</div>
+
+</div>
 	</div>
 	<script src="js/buy.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script>
-		var xhr = new XMLHttpRequest();
-		xhr.open("GET", "infor.json");
-		xhr.onreadystatechange = function(evt){
-
-			if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
-				var result = JSON.parse(xhr.response);
-				console.log("Response: ", result);
-			}
-		};
-
-		xhr.send();
-	</script>
 </body>
 </html>
