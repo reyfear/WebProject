@@ -1,3 +1,9 @@
+window.onload = pageLoad;
+
+function pageLoad(){
+    readJson();
+}
+
 function readJson(){
     var http = new XMLHttpRequest();
     http.open("GET", "readLog.php");
@@ -8,6 +14,7 @@ function readJson(){
     http.onerror = function(){
 
     };
+    xhr.onerror = function() { alert("ERROR!"); };
     http.send();
 }
 
@@ -15,9 +22,11 @@ function showPicture(pic){
     var keys = Object.keys(pic);
     var name = document.getElementById("name");
     var price = document.getElementById("price");
+    var brand = document.getElementById("brand");
+    var type = document.getElementById("type");
     
-    for(var i = 0; i < keys.length; i++){
-        
+    if(keys.length > 0){
+        brand.innerHTML = pic[keys[6]]["brand"];
     }
     
 }
