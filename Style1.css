@@ -78,7 +78,7 @@ p{
 
 }
 .grid-content{
-    
+
 
 }
 .grid-second{
@@ -161,8 +161,8 @@ p{
     min-width: 960px;
     margin-bottom: 30px;
     align-items: center;
-    
-    
+
+
 
 }
 #item6{
@@ -172,7 +172,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    
+
 }
 #item6:hover {
     background-color: rgb(211, 173, 255);
@@ -183,7 +183,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
- 
+
   background-color: rgb(211, 173, 255);
 }
 #item7{
@@ -193,7 +193,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    
+
 }
 #item7:hover {
     background-color: rgb(255, 173, 173);
@@ -204,7 +204,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  
+
   background-color: rgb(255, 173, 173);
 }
 #item8{
@@ -214,7 +214,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-    
+
 }
 #item8:hover {
     background-color: rgb(173, 199, 255);
@@ -225,7 +225,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
-  
+
   background-color: rgb(173, 199, 255);
 }
 #item9{
@@ -235,7 +235,7 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
-   
+
 }
 #item9:hover {
     background-color: rgb(173, 255, 217);
@@ -246,7 +246,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
- 
+
   background-color: rgb(173, 255, 217);
 }
 
@@ -261,7 +261,7 @@ p{
     grid-template-columns: auto auto auto ;
     grid-gap: 0px;
     margin-top: -30px;
-   
+
     align-items: center;
     background-color: aliceblue;
 
@@ -277,7 +277,7 @@ p{
     align-items: center;
     padding: 10px;
     margin: 25px;
-
+    display: none;
     background-color: rgb(255, 255, 255);
 }
 
@@ -307,7 +307,7 @@ p{
 .buyBtn:hover {
     background-color: #555;
 }
-.productpic{
+.productPic{
     width: 150px;
     height: 150px;
 }
@@ -401,7 +401,7 @@ p.space{
     display: grid;
     grid-template-columns: auto  ;
     padding: 10px;
-    
+
 }
 .buybtn{
     margin-top: 30px;
@@ -517,19 +517,19 @@ p.cspace{
     margin-bottom: 20px;
 }
 .border{
-   
+
     border-style: solid;
     border-width: medium;
     border-color: rgb(119, 119, 119);
     display: flex;
-    align-items: center;    
+    align-items: center;
     border-radius: 10px;
     justify-content: center;
-    
+
 }
 .map{
     border-radius: 8px;
     height: 300px;
     width: 500px;
-    
+
 }

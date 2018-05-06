@@ -1,5 +1,7 @@
 var registerBtn = document.getElementById("Register");
-registerBtn.addEventListener("click", gotoRegister);
+if(registerBtn !== null) {
+  registerBtn.addEventListener("click", gotoRegister);
+}
 var gotoProduct = localStorage.getItem("gotoProduct");
 
 if(gotoProduct !== "" && gotoProduct !== null) {

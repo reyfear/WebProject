@@ -12,9 +12,9 @@
 		<div class="grid-item" id="item1"><img src="Images/logo.png"> </div>
 		<div class="grid-item" id="item2"><input class="search" type="text" placeholder="Search.."></div>
 		<div class="grid-item" id="item3">
-			<a class="padnav">Home</a>
-			<a class="padnav">Product</a>
-			<a class="padnav">Contact</a>
+			<a class="padnav" onclick="location.href = 'index.html';">Home</a>
+			<a class="padnav" id="productBtn">Product</a>
+			<a class="padnav" onclick="location.href = 'contact.html';">Contact</a>
 		</div>
 	</div>
 
@@ -61,14 +61,9 @@
 			<div><input class="loginbtn" type="submit" value="Register">
 
 			</div>
-
-
-
 		</form>
-
 		</div>
-
-
-
+		<script src="js/createAllJS.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>
