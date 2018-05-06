@@ -37,8 +37,8 @@ p{
 }
 #item3{
     display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 0px;
     padding: 15px;
     text-align: center;
     align-items: center;
@@ -396,10 +396,9 @@ p.space{
 }
 #buy{
     display: grid;
-    grid-template-columns: auto auto ;
-    grid-gap: 10px;
+    grid-template-columns: auto  ;
     padding: 10px;
-    justify-content: center;
+    
 }
 .buybtn{
     margin-top: 30px;
@@ -485,4 +484,49 @@ p.space{
     width: 180px;
     height: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+.contactdatatab{
+    margin-left: 40px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 15px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 700px;
+    background:linear-gradient(to left bottom, rgb(173, 173, 255),rgb(179, 215, 255) );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.contactdata{
+    padding-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-right: 30px;
+}
+p.cspace{
+    font-size: 20px;
+}
+.contactdataspace{
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.border{
+   
+    border-style: solid;
+    border-width: medium;
+    border-color: rgb(119, 119, 119);
+    display: flex;
+    align-items: center;    
+    border-radius: 10px;
+    justify-content: center;
+    
+}
+.map{
+    border-radius: 8px;
+    height: 300px;
+    width: 500px;
+    
 }
