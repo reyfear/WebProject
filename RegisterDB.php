@@ -25,7 +25,7 @@
 			}
 			else{
 				$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
-				VALUES ('$email', $pass, '$address', '$telephone', '$name')";
+				VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
 			}
 		}
 
