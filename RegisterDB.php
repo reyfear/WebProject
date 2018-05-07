@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "grapescandal";
-	$password = "admin";
+	$username = "PeeAof";
+	$password = "Safeped40";
 	$dbname = "mdt419";
   $tablename = "lkuserDB";
 
@@ -13,7 +13,7 @@
 	$name = $_GET["name"] . " " . $_GET["surname"];
 
 	$conn = new mysqli($servername, $username, $password, $dbname);
-
+	mysqli_set_charset($conn, "utf8");
 	$sql = "SELECT email FROM $tablename";
 	$result = $conn->query($sql);
 
