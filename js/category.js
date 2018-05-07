@@ -33,6 +33,7 @@ function displayCategory() {
       }
     }
     initProductPic();
+    initBuyBtn();
   }
 }
 
