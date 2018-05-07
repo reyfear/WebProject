@@ -22,12 +22,15 @@ p{
 
 }
 
-#item1{
+#item1{    
     text-align:center;
     display:flex;
     align-items:center;
     cursor: pointer;
-
+}
+.logopic{
+    width: 160px;
+    height: 58px;
 }
 #item2{
     text-align:center;
