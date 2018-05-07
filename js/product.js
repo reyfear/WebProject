@@ -38,6 +38,7 @@ function initProductPic() {
 }
 
 function initBuyBtn() {
+  console.log("init");
   var allBuyBtn = document.querySelectorAll(".buyBtn");
   for (var i = 0; i < allBuyBtn.length; i++) {
     allBuyBtn[i].addEventListener('click', gotoBuyNow, true);
@@ -50,8 +51,8 @@ function setInfoClicked(id) {
 }
 
 function gotoBuyNow() {
-  setInfoClicked(this.parentNode.id);
-  var totalPrice = productArray[this.parentNode.id].price;
+  setInfoClicked(this.parentNode.parentNode.parentNode.id);
+  var totalPrice = productArray[this.parentNode.parentNode.parentNode.id].price;
   localStorage.setItem("totalPrice", totalPrice);
   window.location.href = "http://localhost/MDT419/WebProject/buy.php";
 }
