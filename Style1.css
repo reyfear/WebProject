@@ -119,7 +119,7 @@ p{
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 15px;
-    
+
 }
 .logoutpad{
     display: none;
@@ -127,7 +127,7 @@ p{
     padding-left: 45px;
     padding-right: 45px;
     padding-bottom: 15px;
-    
+
 }
 .logoutbtn{
     font-family: 'Kanit', sans-serif;
@@ -192,7 +192,7 @@ p{
 
 
 }
-#item6{
+#Camera{
     cursor: pointer;
     padding: 10px;
     min-width: 120px;
@@ -201,10 +201,10 @@ p{
     background-color: rgb(196, 196, 196);
 
 }
-#item6:hover {
+#Camera:hover {
     background-color: rgb(211, 173, 255);
 }
-#item6Click {
+#CameraClick {
   cursor: pointer;
   padding: 10px;
   min-width: 120px;
@@ -213,7 +213,7 @@ p{
 
   background-color: rgb(211, 173, 255);
 }
-#item7{
+#Lens{
     cursor: pointer;
     padding: 10px;
     min-width: 120px;
@@ -222,10 +222,10 @@ p{
     background-color: rgb(196, 196, 196);
 
 }
-#item7:hover {
+#Lens:hover {
     background-color: rgb(255, 173, 173);
 }
-#item7Click {
+#LensClick {
   cursor: pointer;
   padding: 10px;
   min-width: 120px;
@@ -234,7 +234,7 @@ p{
 
   background-color: rgb(255, 173, 173);
 }
-#item8{
+#Action{
     cursor: pointer;
     padding: 10px;
     min-width: 120px;
@@ -243,10 +243,10 @@ p{
     background-color: rgb(196, 196, 196);
 
 }
-#item8:hover {
+#Action:hover {
     background-color: rgb(173, 199, 255);
 }
-#item8Click {
+#ActionClick {
   cursor: pointer;
   padding: 10px;
   min-width: 120px;
@@ -255,7 +255,7 @@ p{
 
   background-color: rgb(173, 199, 255);
 }
-#item9{
+#Drone{
     cursor: pointer;
     padding: 10px;
     min-width: 120px;
@@ -264,10 +264,10 @@ p{
     background-color: rgb(196, 196, 196);
 
 }
-#item9:hover {
+#Drone:hover {
     background-color: rgb(173, 255, 217);
 }
-#item9Click {
+#DroneClick {
   cursor: pointer;
   padding: 10px;
   min-width: 120px;

@@ -9,12 +9,12 @@
 	</head>
 <body>
 	<div class="grid-nav">
-		<div class="grid-item" id="item1"><img src="Images/logo.png"> </div>
+		<div class="grid-item" id="item1" ><img src="images/logo.png" onclick="location.href = 'index.php';"> </div>
 		<div class="grid-item" id="item2"><input class="search" type="text" placeholder="Search.."></div>
 		<div class="grid-item" id="item3">
-			<a class="padnav" onclick="location.href = 'index.html';">Home</a>
+			<a class="padnav" onclick="location.href = 'index.php';">Home</a>
 			<a class="padnav" id="productBtn">Product</a>
-			<a class="padnav" onclick="location.href = 'contact.html';">Contact</a>
+			<a class="padnav" onclick="location.href = 'contact.php';">Contact</a>
 		</div>
 	</div>
 

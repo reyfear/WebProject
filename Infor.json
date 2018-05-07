@@ -2,7 +2,8 @@
     "camera1": {
         "name": "Sony A6000 KIT 16-50mm.",
         "brand": "Sony",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "23,990",
         "img": {
             "img1": "Camera/Cam1_1.jpg",
@@ -13,7 +14,8 @@
     "camera2": {
         "name": "Sony Alpha a6300 KIT 16-50mm.",
         "brand": "Sony",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "31,990",
         "img": {
             "img1": "Camera/Cam2_1.jpg",
@@ -24,7 +26,8 @@
     "camera3": {
         "name": "Sony Alpha a6500 (body)",
         "brand": "Sony",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "36,990",
         "img": {
             "img1": "Camera/Cam3_1.jpg",
@@ -35,7 +38,8 @@
     "camera4": {
         "name": "Sony Alpha a7 II K 28-70mm.",
         "brand": "Sony",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "51,990",
         "img": {
             "img1": "Camera/Cam4_1.jpg",
@@ -46,7 +50,8 @@
     "camera5": {
         "name": "Sony A7 III Lens 28-70mm.",
         "brand": "Sony",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "74,990",
         "img": {
             "img1": "Camera/Cam5_1.jpg",
@@ -57,7 +62,8 @@
     "camera6": {
         "name": "Nikon D7200 Kit 18-140mm.",
         "brand": "Nikon",
-        "type": "DSLR",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "35,990",
         "img": {
             "img1": "Camera/Cam6_1.jpg",
@@ -68,7 +74,8 @@
     "camera7": {
         "name": "Nikon D5600",
         "brand": "Nikon",
-        "type": "DSLR",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "28,880",
         "img": {
             "img1": "Camera/Cam7_1.jpg",
@@ -79,7 +86,8 @@
     "camera8": {
         "name": "Nikon D3400 Kit 18-55mm.",
         "brand": "Nikon",
-        "type": "DSLR",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "16,900",
         "img": {
             "img1": "Camera/Cam8_1.jpg",
@@ -90,7 +98,8 @@
     "camera9": {
         "name": "Nikon D5500 Kit 18-55mm.",
         "brand": "Nikon",
-        "type": "DSLR",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "31,500",
         "img": {
             "img1": "Camera/Cam9_1.jpg",
@@ -101,7 +110,8 @@
     "camera10": {
         "name": "Nikon D750 Kit 24-120mm.",
         "brand": "Nikon",
-        "type": "DSLR",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "71,000",
             "img": {
             "img1": "Camera/Cam10_1.jpg",
@@ -112,7 +122,8 @@
     "camera11": {
         "name": "Fujifilm X-T2 Kit 18-55mm.",
         "brand": "Fujifilm",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "54,990",
         "img": {
             "img1": "Camera/Cam11_1.jpg",
@@ -123,7 +134,8 @@
     "camera12": {
         "name": "Fujifilm X-T20 Kit 16-50mm.",
         "brand": "Fujifilm",
-        "type": "Mirrorless",
+        "type": "Camera",
+        "typecheck": "Camera",
         "price": "34,990",
         "img": {
             "img1": "Camera/Cam12_1.jpg",
@@ -136,6 +148,7 @@
         "name": "Fujinon XF 18MM. f/2 R",
         "brand": "Fujifilm",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "6,990",
         "img": {
             "img1": "Lens/Lens1_1.jpg",
@@ -147,6 +160,7 @@
         "name": "Fujinon XF 16MM. f/1.4 R WR",
         "brand": "Fujifilm",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "30,990",
         "img": {
             "img1": "Lens/Lens2_1.jpg",
@@ -158,6 +172,7 @@
         "name": "Fujinon XF 50-140MM. f/2.8 R LM OIS WR",
         "brand": "Fujifilm",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "56,990",
         "img": {
             "img1": "Lens/Lens3_1.jpg",
@@ -169,6 +184,7 @@
         "name": "Nikkor AF FISHEYE 16MM. F/2.8 D",
         "brand": "Nikon",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "23,655",
         "img": {
             "img1": "Lens/Lens4_1.jpg",
@@ -180,6 +196,7 @@
         "name": "Nikkor 200-500MM. f5.6E ED VR",
         "brand": "Nikon",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "39,900",
         "img": {
             "img1": "Lens/Lens5_1.jpg",
@@ -191,6 +208,7 @@
         "name": "Nikkor AF-S 35 MM. F/1.4 G",
         "brand": "Nikon",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "63,900",
         "img": {
             "img1": "Lens/Lens6_1.jpg",
@@ -202,6 +220,7 @@
         "name": "Sony E 20MM. f/2.8 ",
         "brand": "Sony",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "11,490",
         "img": {
             "img1": "Lens/Lens7_1.jpg",
@@ -213,6 +232,7 @@
         "name": "Sony 70-300MM. F/4.5-5.6 G SSM",
         "brand": "Sony",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "30,591",
         "img": {
             "img1": "Lens/Lens8_1.jpg",
@@ -224,6 +244,7 @@
         "name": "Sony FE 100MM. f/2.8 STF GM",
         "brand": "Sony",
         "type": "Lens",
+        "typecheck": "Lens",
         "price": "58,990",
         "img": {
             "img1": "Lens/Lens9_1.jpg",
@@ -235,6 +256,7 @@
         "name": "GoPro HERO5",
         "brand": "GoPro",
         "type": "Action Camera",
+        "typecheck": "Action",
         "price": "10,800",
         "img": {
             "img1": "Gopro/gopro1_1.jpg",
@@ -246,6 +268,7 @@
         "name": "GoPro HERO6",
         "brand": "GoPro",
         "type": "Action Camera",
+        "typecheck": "Action",
         "price": "14,500",
         "img": {
             "img1": "Gopro/gopro2_1.jpg",
@@ -257,6 +280,7 @@
         "name": "Ricoh THETA V",
         "brand": "Ricoh",
         "type": "360 Camera",
+        "typecheck": "Camera",
         "price": "16,990",
         "img": {
             "img1": "Gopro/gopro3_1.jpg",
@@ -268,6 +292,7 @@
         "name": "Insta360 Air for Micro USB",
         "brand": "insta360",
         "type": "360 Camera",
+        "typecheck": "Camera",
         "price": "5,690",
         "img": {
             "img1": "Gopro/gopro4_1.jpg",
@@ -279,6 +304,7 @@
         "name": "DJI Spark Fly More Combo",
         "brand": "DJI",
         "type": "Drone",
+        "typecheck": "Drone",
         "price": "21,000",
         "img": {
             "img1": "Drone/drone1_1.jpg",
@@ -290,6 +316,7 @@
         "name": "DJI Mavic Air Fly More Combo",
         "brand": "DJI",
         "type": "Drone",
+        "typecheck": "Drone",
         "price": "37,500",
         "img": {
             "img1": "Drone/drone2_1.jpg",
@@ -301,6 +328,7 @@
         "name": "DJI mavic pro fly more combo",
         "brand": "DJI",
         "type": "Drone",
+        "typecheck": "Drone",
         "price": "43,290",
         "img": {
             "img1": "Drone/drone3_1.jpg",

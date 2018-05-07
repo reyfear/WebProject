@@ -1,4 +1,4 @@
-var peopleArray = readProductData();
+var productArray = readProductData();
 
 function readProductData() {
   var xhr = new XMLHttpRequest();
@@ -7,14 +7,14 @@ function readProductData() {
     if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200){
       var productInfo = JSON.parse(xhr.response);
 
-      peopleArray = Object.keys(productInfo).map(i => productInfo[i]);
+      productArray = Object.keys(productInfo).map(i => productInfo[i]);
 
       if(window.location.href.indexOf("index.php") > -1) {
-        for(var count = 0; count < peopleArray.length; count++) {
+        for(var count = 0; count < productArray.length; count++) {
           var container = document.getElementById("template_product").cloneNode(true);
-          container.getElementsByClassName("header")[0].innerHTML = peopleArray[count].name;
-          container.getElementsByClassName("productPic")[0].src = peopleArray[count].img["img1"];
-          container.getElementsByClassName("price")[0].innerHTML = peopleArray[count].price;
+          container.getElementsByClassName("header")[0].innerHTML = productArray[count].name;
+          container.getElementsByClassName("productPic")[0].src = productArray[count].img["img1"];
+          container.getElementsByClassName("price")[0].innerHTML = productArray[count].price;
           container.style.display = "block";
           container.id = count;
 
@@ -26,7 +26,7 @@ function readProductData() {
     }
   };
   xhr.send();
-  return peopleArray;
+  return productArray;
 }
 
 function initProductPic() {

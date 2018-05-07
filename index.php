@@ -31,7 +31,7 @@
 		</div>
 	</div>
 		<div class="grid-content">
-			<div class="grid-second">			
+			<div class="grid-second">
 				<div id="logbtn" class="logintab">
 				<form action="checkLoginDB.php" method="get" accept-charset="utf-8" class="form">
 					<div class="loginpad" style = "display: <?php echo $_SESSION['login']?>">
@@ -72,16 +72,16 @@
 			</div>
 		</div>
 		<div class="grid-third">
-				<div class="categoryBtn" id="item6">
+				<div class="categoryBtn" id="Camera" value="Camera">
 					<img class="iconHead" src="images/camera.png" >
 				</div>
-				<div class="categoryBtn" id="item7">
+				<div class="categoryBtn" id="Lens" value="Lens">
 					<img class="iconHead" src="images/camera-lens.png">
 				</div>
-				<div class="categoryBtn" id="item8">
+				<div class="categoryBtn" id="Action" value="Action">
 					<img class="iconHead" src="images/gopro.png" >
 				</div>
-				<div class="categoryBtn" id="item9">
+				<div class="categoryBtn" id="Drone" value="Drone">
 					<img class="iconHead" src="images/drone.png" >
 				</div>
 
