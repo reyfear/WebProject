@@ -26,7 +26,7 @@ function addEventToProductImg() {
     $(document).ready(function() {
       $(".productInfo_img").on('click', function() {
         $("#cf7 img").removeClass("opaque");
-        var newImage = $(this).index();
+        var newImage = this.src;;
         $("#piccamother").eq(newImage).addClass("opaque");
       });
     });
