@@ -83,8 +83,7 @@
 
 				<div class="padding">
 					<button class="shop" id="shop"><p>Shopping</p></button>
-					<button class="pay"><p>Checkout</p></button>
-
+					<button class="pay" id="payBtn"><p>Checkout</p></button>
 				</div>
 					</form>
 					<form >

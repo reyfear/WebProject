@@ -1,4 +1,5 @@
 var totalPriceLocal = localStorage.getItem("totalPrice");
+CheckLogin();
 DisplayTotal();
 
 function DisplayTotal() {
@@ -6,6 +7,21 @@ function DisplayTotal() {
   var totalPriceText = document.getElementById("totalPriceText");
   priceText.innerHTML = totalPriceLocal;
   totalPriceText.innerHTML = totalPriceLocal;
+}
+
+function CheckLogin() {
+  var xhr = new XMLHttpRequest();
+  xhr.open("GET", "Login.php");
+  xhr.onreadystatechange = function(evt) {
+    if(xhr.readyState === XMLHttpRequest.DONE && xhr.status === 200) {
+      var result = JSON.parse(xhr.response);
+      if(result === "" || result === null) {
+        var payBtn = document.getElementById("payBtn");
+        payBtn.disabled = true;
+      }
+    }
+  }
+  xhr.send();
 }
 
 
