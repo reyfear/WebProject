@@ -13,6 +13,7 @@ function displayInfo() {
     var infoPicTemplate = document.getElementsByClassName("productInfo_img");
     var productImg = document.getElementById("productImg");
     productImg.src = productArray[infoNumber].img["img" + 1];
+    productImg.className = "piccaminfo.opaque";
     for (var i = 0; i < infoPicTemplate.length; i++) {
       infoPicTemplate[i].src = productArray[infoNumber].img["img" + (i + 1)];
     }
@@ -25,7 +26,7 @@ function addEventToProductImg() {
   for (var i = 0; i < infoPicTemplate.length; i++) {
     $(document).ready(function() {
       $(".productInfo_img").on('click', function() {
-        $("#cf7 img").removeClass("opaque");
+        $("#piccamother").removeClass("opaque");
         var newImage = this.src;;
         $("#piccamother").eq(newImage).addClass("opaque");
       });
