@@ -38,7 +38,6 @@ function initProductPic() {
 }
 
 function initBuyBtn() {
-  console.log("init");
   var allBuyBtn = document.querySelectorAll(".buyBtn");
   for (var i = 0; i < allBuyBtn.length; i++) {
     allBuyBtn[i].addEventListener('click', gotoBuyNow, true);
