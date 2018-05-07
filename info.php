@@ -58,7 +58,7 @@
 					</div>
 					</form>
 				</div>
-			
+
 			<div class="infopictab" id="infoPic_template">
 					<img class="piccaminfo" id="productImg"src="images/a7iii_info.jpg">
 					<div class="grid-item" id="piccamother">
