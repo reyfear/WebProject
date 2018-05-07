@@ -63,10 +63,12 @@
 				</div>
 
 			<div class="infopictab" id="infoPic_template">
-					<div id="piccaminfo">
-						<img class="opaque" src="images/a7iii_info.jpg">
-						<img src="images/a7iii_info.jpg">
-						<img src="images/a7iii_info.jpg">
+					<div id="bigPicContainer">
+						<div id="piccaminfo">
+							<img class="opaque" src="images/a7iii_info.jpg">
+							<img src="images/a7iii_info.jpg">
+							<img src="images/a7iii_info.jpg">
+						</div>
 					</div>
 
 					<div class="grid-item" id="piccamother">
