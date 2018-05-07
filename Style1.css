@@ -36,7 +36,7 @@ p{
     text-align:center;
     display:flex;
     align-items:center;
-    justify-content:space-around;
+    justify-content:center;
 }
 #item3{
     display: grid;
@@ -54,12 +54,25 @@ p{
 .padnav:hover {
     color: rgb(255, 255, 255);
 }
-
-.search{
+.imgsearch{
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-right: 15px;
+    padding-left: 3px;
+    background: rgb(255, 255, 255);
+    width: 20px;
+    height: 20px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    cursor: pointer;
+}
+.search{   
     padding-left: 10px;
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
-    border-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+
     border-width: 0px;
     width: 500px;
     height: 30px;
@@ -190,7 +203,6 @@ p{
     display: grid;
     grid-template-columns: auto auto auto auto ;
     grid-gap: 0px;
-    border-radius: 15px;
     min-width: 960px;
     margin-bottom: 30px;
     align-items: center;
@@ -204,6 +216,7 @@ p{
     min-width: 120px;
     text-align:center;
     align-items:center;
+    border-top-left-radius: 10px;
     background-color: rgb(196, 196, 196);
 
 }
@@ -216,6 +229,7 @@ p{
   min-width: 120px;
   text-align:center;
   align-items:center;
+  border-top-left-radius: 10px;
 
   background-color: rgb(211, 173, 255);
 }
@@ -262,6 +276,7 @@ p{
   background-color: rgb(173, 199, 255);
 }
 #Drone{
+    border-top-right-radius: 10px;
     cursor: pointer;
     padding: 10px;
     min-width: 120px;
@@ -274,6 +289,7 @@ p{
     background-color: rgb(173, 255, 217);
 }
 #DroneClick {
+    border-top-right-radius: 10px;
   cursor: pointer;
   padding: 10px;
   min-width: 120px;
@@ -294,8 +310,10 @@ p{
     grid-template-columns: auto auto auto ;
     grid-gap: 0px;
     margin-top: -30px;
-
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     align-items: center;
+    margin-bottom: 30px;
     background-color: aliceblue;
 
 }
@@ -319,7 +337,7 @@ p{
     padding: 0 16px;
 }
 .price {
-    color: grey;
+    color: rgb(0, 0, 0);
 }
 
 .buyBtn {
