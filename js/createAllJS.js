@@ -13,13 +13,15 @@ function pageLoad(){
 		document.body.childNodes[0].appendChild(infoJS);
 	}
 
-	var categoryJS = document.createElement("script");
-	categoryJS.src = "js/category.js";
-	document.body.childNodes[0].appendChild(categoryJS);
-
 	var allButton = document.createElement("script");
 	allButton.src = "js/button.js";
 	document.body.childNodes[0].appendChild(allButton);
+
+	if(window.location.href.indexOf("buy.php") > -1) {
+		var buyJS = document.createElement("script");
+		buyJS.src = "js/buy.js";
+		document.body.childNodes[0].appendChild(buyJS);
+	}
 
 	$("img").on("contextmenu", function(e) {
 	    return false;

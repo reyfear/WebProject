@@ -24,8 +24,8 @@
 	<div class="grid-nav">
 		<div class="grid-item" id="item1" ><img class="logopic" src="images/logo.png" onclick="location.href = 'index.php';"> </div>
 		<div class="grid-item" id="item2">
-			<input class="search" type="text" placeholder="Search..">
-			<img class="imgsearch" src="images/search.png">
+			<input id="searchBox" class="search" type="text" placeholder="Search..">
+			<img id="searchBtn" class="imgsearch" src="images/search.png">
 		</div>
 		<div class="grid-item" id="item3">
 			<a class="padnav" onclick="location.href = 'index.php';">Home</a>
@@ -103,6 +103,8 @@
 	</div>
 	<script src="js/createAllJS.js"></script>
 	<script src="js/product.js"></script>
+	<script src="js/category.js"></script>
+	
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
 </body>

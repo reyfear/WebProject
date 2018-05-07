@@ -33,7 +33,10 @@
       }
     }
     session_unset();
-		echo "Login error check email and password";
+		echo "<script type='text/javascript'>
+			alert('Login Error. Please check your E-mail and Password');
+			window.location.href = 'http://localhost/MDT419/WebProject/index.php';
+		</script>";
   } else {
     echo "0 results";
   }
