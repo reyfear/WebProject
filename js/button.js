@@ -16,7 +16,7 @@ if(gotoProduct !== "" && gotoProduct !== null) {
 }
 
 function gotoRegister(){
-  window.location.href= "register.html"
+  window.location.href= "register.php"
 }
 
 function test() {
@@ -27,7 +27,7 @@ $("#productBtn").on('click', function(event) {
       event.preventDefault();
       var hash = "product";
 
-      if(window.location.href.indexOf("index.html") > -1) {
+      if(window.location.href.indexOf("index.php") > -1) {
         $('html, body').animate({
           scrollTop: $(".grid-third").offset().top
         }, 800, function() {
