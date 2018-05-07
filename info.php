@@ -25,8 +25,8 @@
 	<div class="grid-nav">
 		<div class="grid-item" id="item1" ><img class="logopic" src="images/logo.png" onclick="location.href = 'index.php';"> </div>
 		<div class="grid-item" id="item2">
-			<input class="search" type="text" placeholder="Search..">
-			<img class="imgsearch" src="images/search.png">
+			<input id="searchBox" class="search" type="text" placeholder="Search..">
+			<img id="searchBtn" class="imgsearch" src="images/search.png">
 		</div>
 		<div class="grid-item" id="item3">
 			<a class="padnav" onclick="location.href = 'index.php';">Home</a>
@@ -94,13 +94,13 @@
 				</div>
 				<div class="infodata">
 					<p class="space">Quantity </p>
-					<input class="numbar" type="text" value="1">
+					<input id="pieceBox" class="number" type="text" value="1">
 					<p> Piece</p>
 					</div>
 				<div class="infodatapircetab">
 					<div class="infodata">
 					<p class="space">Price: </p>
-					<p class="price"> 50,000 </p>
+					<p class="price" id="price"> 50,000 </p>
 					<p class="bath">Bath</p>
 					</div>
 

@@ -22,6 +22,7 @@ function readProductData() {
           productContainer.appendChild(container);
         }
         initProductPic();
+        initBuyBtn();
       }
     }
   };
@@ -36,9 +37,26 @@ function initProductPic() {
   }
 }
 
-function gotoInfo() {
-  text = "Ho";
-  var infoClicked = this.parentNode.id;
+function initBuyBtn() {
+  var allBuyBtn = document.querySelectorAll(".buyBtn");
+  for (var i = 0; i < allBuyBtn.length; i++) {
+    allBuyBtn[i].addEventListener('click', gotoBuyNow, true);
+  }
+}
+
+function setInfoClicked(id) {
+  var infoClicked = id;
   localStorage.setItem("productInfo", infoClicked);
+}
+
+function gotoBuyNow() {
+  setInfoClicked(this.parentNode.id);
+  var totalPrice = productArray[this.parentNode.id].price;
+  localStorage.setItem("totalPrice", totalPrice);
+  window.location.href = "http://localhost/MDT419/WebProject/buy.php";
+}
+
+function gotoInfo() {
+  setInfoClicked(this.parentNode.id);
   window.location.href = "http://localhost/MDT419/WebProject/info.php";
 }

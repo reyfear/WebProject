@@ -1,6 +1,8 @@
 var productClicked = localStorage.getItem("productInfo");
 displayInfo();
 addEventToProductImg();
+addEventToPiece();
+addEventToBuyBtn();
 
 function displayInfo() {
   if(productClicked !== "") {
@@ -16,8 +18,6 @@ function displayInfo() {
       productImg[i].src = productArray[infoNumber].img["img" + (i + 1)];
       infoPicTemplate[i].src = productArray[infoNumber].img["img" + (i + 1)];
     }
-    var infoClicked = "";
-    localStorage.setItem("Clicked", infoClicked);
   }
 }
 
@@ -31,7 +31,35 @@ function addEventToProductImg() {
   });
 }
 
-function changePic() {
-  var productImg = document.getElementById("productImg");
-  productImg.src = this.src;
+function addEventToPiece() {
+  var infoNumber = parseInt(productClicked);
+  var pieceTextBox = document.getElementById("pieceBox");
+  pieceTextBox.addEventListener("change", function() {
+    var price = document.getElementById("price");
+    var originalPrice = productArray[infoNumber].price;
+    originalPrice = originalPrice.replace(",", "");
+    price.innerHTML = addCommas(originalPrice * pieceTextBox.value);
+  });
+}
+
+function addEventToBuyBtn() {
+    var price = document.getElementById("price");
+    var allBuyBtn = document.getElementsByClassName("buybtn");
+    allBuyBtn[0].addEventListener('click', function() {
+      var totalPrice = price.innerHTML;
+      localStorage.setItem("totalPrice", totalPrice);
+      window.location.href = "http://localhost/MDT419/WebProject/buy.php";
+    }, true);
+}
+
+function addCommas(nStr) {
+    nStr += '';
+    var x = nStr.split('.');
+    var x1 = x[0];
+    var x2 = x.length > 1 ? '.' + x[1] : '';
+    var rgx = /(\d+)(\d{3})/;
+    while (rgx.test(x1)) {
+        x1 = x1.replace(rgx, '$1' + ',' + '$2');
+    }
+    return x1 + x2;
 }

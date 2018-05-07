@@ -24,8 +24,8 @@
 	<div class="grid-nav">
 		<div class="grid-item" id="item1" ><img class="logopic" src="images/logo.png" onclick="location.href = 'index.php';"> </div>
 		<div class="grid-item" id="item2">
-			<input class="search" type="text" placeholder="Search..">
-			<img class="imgsearch" src="images/search.png">
+			<input id="searchBox" class="search" type="text" placeholder="Search..">
+			<img id="searchBtn" class="imgsearch" src="images/search.png">
 		</div>
 		<div class="grid-item" id="item3">
 			<a class="padnav" onclick="location.href = 'index.php';">Home</a>
@@ -73,26 +73,20 @@
 					<input class="radiobutton" type="radio" name="Shipping by" value="EMS"> หักบัตรเครดิต
 				</div>
 				<div class="checkPrice1">
-					<b><p>Price</p></b><p class = "middle"></p><p class="spaceship">Baht</p>
+					<b><p>Price</p></b><p class = "middle" id="priceText"></p><p class="spaceship">Baht</p>
 					<b><p>Shipping</p></b><p  class = "middle"></p><p class="red">*Free</p>
 				</div>
 				<div class ="checkPrice2"><hr></div>
 				<div class="checkPrice3">
-					<h3>Total</h1><p  class = "middle"></p><h3>Baht</h3>
+					<h3>Total</h1><p  class = "middle" id="totalPriceText"></p><h3>Baht</h3>
 				</div>
 
 				<div class="padding">
-					<button class="shop"><p>Shopping</p></button>
+					<button class="shop" id="shop"><p>Shopping</p></button>
 					<button class="pay"><p>Checkout</p></button>
 
 				</div>
-			
 					</form>
-				
-				
-				
-				
-				
 					<form >
 
 					</form>
