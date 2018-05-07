@@ -6,7 +6,6 @@
 	$tablename = "lkuserDB";
 
   session_start();
-  $conn = new mysqli($servername, $username, $password, $dbname);
 
   $_SESSION['email'] = $_GET["email"];
   $_SESSION['password'] = $_GET["password"];
@@ -14,6 +13,7 @@
   $_SESSION['login'] = 'block';
   $_SESSION['logout'] = 'none';
   $conn = new mysqli($servername, $username, $password, $dbname);
+	mysqli_set_charset($conn, "utf8");
 
   if($conn->connect_error) {
 		die("Connection failed: " . $conn->connect_error);
