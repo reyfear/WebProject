@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "grapescandal";
-	$password = "admin";
+	$username = "PeeAof";
+	$password = "Safeped40";
 	$dbname = "mdt419";
   $tablename = "lkuserDB";
 
@@ -12,31 +12,6 @@
 	$telephone = $_GET["telephone"];
 	$name = $_GET["name"] . " " . $_GET["surname"];
 
-<<<<<<< HEAD
-	if($pass != $repassword) {
-		echo "<script type='text/javascript'>
-			alert('Password doesnt match.');
-			window.location.href = 'http://localhost/MDT419/WebProject/register.php';
-		</script>";
-	} else {
-		$conn = new mysqli($servername, $username, $password, $dbname);
-		mysqli_set_charset($conn, "utf8");
-
-		$sql = "SELECT email FROM $tablename";
-		$result = $conn->query($sql);
-
-		if($result->num_rows > 0) {
-			while($row = $result->fetch_assoc()) {
-				if($email == $row["email"]){
-					echo "<script type='text/javascript'>
-						alert('This e-mail already use.');
-						window.location.href = 'http://localhost/MDT419/WebProject/register.php';
-					</script>";
-				}  else {
-					$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
-					VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
-				}
-=======
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	mysqli_set_charset($conn, "utf8");
 	$sql = "SELECT email FROM $tablename";
@@ -51,7 +26,6 @@
 			else{
 				$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
 				VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
->>>>>>> origin/PeeAof
 			}
 
 		} else {
