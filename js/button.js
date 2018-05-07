@@ -55,6 +55,8 @@ $("#searchBtn").on('click', function(event) {
         });
         var productBtnClicked = "";
         localStorage.setItem("gotoProduct", productBtnClicked);
+        var searchValue = "";
+        localStorage.setItem("gotoProduct", searchValue);
         clearCategory();
         searchCategory($("#searchBox").val());
       } else {
@@ -64,6 +66,32 @@ $("#searchBtn").on('click', function(event) {
         localStorage.setItem("searchValue", searchValue);
         window.location.href = "index.php";
       }
+});
+
+$("#searchBox").keydown(function(e){
+    if(e.keyCode === 13){
+      event.preventDefault();
+      var hash = "product";
+      if(window.location.href.indexOf("index.php") > -1) {
+        $('html, body').animate({
+          scrollTop: $(".grid-third").offset().top
+        }, 800, function() {
+          window.location.hash = hash;
+        });
+        var productBtnClicked = "";
+        localStorage.setItem("gotoProduct", productBtnClicked);
+        var searchValue = "";
+        localStorage.setItem("searchValue", searchValue);
+        clearCategory();
+        searchCategory($("#searchBox").val());
+      } else {
+        var productBtnClicked = "click";
+        var searchValue = $("#searchBox").val();
+        localStorage.setItem("gotoProduct", productBtnClicked);
+        localStorage.setItem("searchValue", searchValue);
+        window.location.href = "index.php";
+      }
+     }
 });
 
 
@@ -83,5 +111,6 @@ function searchCategory(currentCategory) {
       }
     }
     initProductPic();
+    initBuyBtn();
   }
 }

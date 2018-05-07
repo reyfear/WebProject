@@ -69,8 +69,8 @@
 
 				<p class="paddingcenter"> วิธีการจ่ายเงิน     </p>
 				<div class="checkBox">
-					<input class="radiobutton" type="radio" name="Shipping by" value="Normal"> โอนเงินผ่านธนาคาร <br>
-					<input class="radiobutton" type="radio" name="Shipping by" value="EMS"> หักบัตรเครดิต
+					<input class="radiobutton" type="radio" name="Pay by" value="Normal"> โอนเงินผ่านธนาคาร <br>
+					<input class="radiobutton" type="radio" name="Pay by" value="EMS"> หักบัตรเครดิต
 				</div>
 				<div class="checkPrice1">
 					<b><p>Price</p></b><p class = "middle" id="priceText"></p><p class="spaceship">Baht</p>

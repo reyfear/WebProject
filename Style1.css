@@ -209,19 +209,22 @@ p{
     margin-bottom: 30px;
     align-items: center;
 }
+
 #Camera{
     cursor: pointer;
     padding: 10px;
-    min-width: 120px;
+    min-width: 60px;
     text-align:center;
     align-items:center;
     border-top-left-radius: 10px;
     background-color: rgb(196, 196, 196);
 
 }
+
 #Camera:hover {
-    background-color: rgb(211, 173, 255);
+    background-color: rgb(222, 196, 252);
 }
+
 #CameraClick {
     cursor: pointer;
     padding: 10px;
@@ -230,19 +233,31 @@ p{
     align-items:center;
     border-top-left-radius: 10px;
     background-color: rgb(211, 173, 255);
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation: cameraAnim 0.5s; /* Safari 4.0 - 8.0 */
+    animation: cameraAnim 0.5s;
 }
+
+@keyframes cameraAnim {
+    from {background-color: rgb(222, 196, 252);}
+    to {background-color: rgb(211, 173, 255);}
+}
+
 #Lens{
     cursor: pointer;
     padding: 10px;
-    min-width: 120px;
+    min-width: 60px;
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
 
 }
+
 #Lens:hover {
-    background-color: rgb(255, 173, 173);
+    background-color: rgb(254, 208, 208);
 }
+
 #LensClick {
     cursor: pointer;
     padding: 10px;
@@ -250,19 +265,31 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(255, 173, 173);
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation: lensAnim 0.5s; /* Safari 4.0 - 8.0 */
+    animation: lensAnim 0.5s;
 }
+
+@keyframes lensAnim {
+    from {background-color: rgb(196, 196, 196);}
+    to {background-color: rgb(255, 173, 173);}
+}
+
 #Action{
     cursor: pointer;
     padding: 10px;
-    min-width: 120px;
+    min-width: 60px;
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
 
 }
+
 #Action:hover {
-    background-color: rgb(173, 199, 255);
+    background-color: rgb(207, 221, 252);
 }
+
 #ActionClick {
     cursor: pointer;
     padding: 10px;
@@ -270,20 +297,32 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(173, 199, 255);
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation: goproAnim 0.5s; /* Safari 4.0 - 8.0 */
+    animation: goproAnim 0.5s;
 }
-#Drone{
+
+@keyframes goproAnim {
+    from {background-color: rgb(207, 221, 252);}
+    to {background-color: rgb(173, 199, 255);}
+}
+
+#Drone {
     border-top-right-radius: 10px;
     cursor: pointer;
     padding: 10px;
-    min-width: 120px;
+    min-width: 60px;
     text-align:center;
     align-items:center;
     background-color: rgb(196, 196, 196);
 
 }
+
 #Drone:hover {
-    background-color: rgb(173, 255, 217);
+    background-color: rgb(207, 252, 231);
 }
+
 #DroneClick {
     border-top-right-radius: 10px;
     cursor: pointer;
@@ -292,6 +331,15 @@ p{
     text-align:center;
     align-items:center;
     background-color: rgb(173, 255, 217);
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+    -webkit-animation: droneAnim 0.5s; /* Safari 4.0 - 8.0 */
+    animation: droneAnim 0.5s;
+}
+
+@keyframes droneAnim {
+    from {background-color: rgb(207, 252, 231);}
+    to {background-color: rgb(173, 255, 217);}
 }
 
 .iconHead{
@@ -643,8 +691,6 @@ p.cspace{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
 
-
-
 .shipdatatab{
     margin-left: 40px;
     margin-right: 20%;
@@ -774,5 +820,4 @@ h3{
 
 .radiobutton:hover{
     cursor: pointer;
-
 }

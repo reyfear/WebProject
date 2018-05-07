@@ -50,8 +50,8 @@ function setInfoClicked(id) {
 }
 
 function gotoBuyNow() {
-  setInfoClicked(this.parentNode.id);
-  var totalPrice = productArray[this.parentNode.id].price;
+  setInfoClicked(this.parentNode.parentNode.parentNode.id);
+  var totalPrice = productArray[this.parentNode.parentNode.parentNode.id].price;
   localStorage.setItem("totalPrice", totalPrice);
   window.location.href = "http://localhost/MDT419/WebProject/buy.php";
 }
