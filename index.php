@@ -91,7 +91,8 @@
 					<p class="header" id="product_header">Sony A7 markIII</p>
 					<img class="productPic" src="images/sony_a7iii.png" id="pruduct_img">
 					<div class="container">
-						<p class="price" id="product_price">$199</p>
+						<p class="price" id="product_price" style = "display:inline-block;">$199</p>
+						<p style = "display:inline-block;"> Bath<p>
 						<p><button class="buyBtn">Buy Now</button></p>
 					</div>
 				</div>
