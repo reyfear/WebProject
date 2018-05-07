@@ -22,7 +22,7 @@ p{
 
 }
 
-#item1{    
+#item1{
     text-align:center;
     display:flex;
     align-items:center;
@@ -66,7 +66,7 @@ p{
     border-top-right-radius: 10px;
     cursor: pointer;
 }
-.search{   
+.search{
     padding-left: 10px;
     font-family: 'Kanit', sans-serif;
     font-size: 14px;
@@ -77,7 +77,7 @@ p{
     height: 30px;
 }
 *:focus{
-    outline: none;    
+    outline: none;
 }
 @media screen and (min-width: 1366px){
     .grid-content{
@@ -392,7 +392,7 @@ p.header{
     height: 400px;
     border-style: solid;
     border-width: 5px;
-    border-color: rgb(119, 119, 119);    
+    border-color: rgb(119, 119, 119);
     align-items: center;
     border-radius: 20px;
     justify-content: center;
@@ -406,14 +406,14 @@ p.header{
     padding: 10px;
     justify-content: center;
     position:absolute;
-  left:0;
-  -webkit-transition: opacity 1s ease-in-out;
-  -moz-transition: opacity 1s ease-in-out;
-  -o-transition: opacity 1s ease-in-out;
-  transition: opacity 1s ease-in-out;
-  opacity:0;
-  -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  filter: alpha(opacity=0);
+    left:0;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+    opacity:0;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    filter: alpha(opacity=0);
 }
 .infodata{
     padding-top: 30px;
@@ -613,7 +613,7 @@ p.cspace{
     border-radius: 10px;
     border-style: solid;
     border-width: 3px;
-    border-color: rgb(119, 119, 119);    
+    border-color: rgb(119, 119, 119);
     cursor: pointer;
     user-select: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
