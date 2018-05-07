@@ -397,14 +397,6 @@ p.header{
     border-radius: 20px;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-#piccamother{
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 50px;
-    padding: 10px;
-    justify-content: center;
     position:absolute;
     left:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -416,7 +408,15 @@ p.header{
     filter: alpha(opacity=0);
 }
 
-#piccamother.opaque {
+#piccamother{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 50px;
+    padding: 10px;
+    justify-content: center;
+    
+ }
+.piccaminfo.opaque {
     opacity:1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
