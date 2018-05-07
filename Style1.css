@@ -397,16 +397,7 @@ p.header{
     border-radius: 20px;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    position:absolute;
-    left:0;
-    -webkit-transition: opacity 1s ease-in-out;
-    -moz-transition: opacity 1s ease-in-out;
-    -o-transition: opacity 1s ease-in-out;
-    transition: opacity 1s ease-in-out;
-    opacity:0;
-    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-    filter: alpha(opacity=0);
-}
+   }
 
 #piccamother{
     display: grid;
@@ -442,8 +433,8 @@ p.header{
 
 .infodatatab{
     margin-left: 40px;
-    padding-left: 30px;
     padding-right: 30px;
+    padding-left: 30px;
     border-radius: 15px;
     text-align: center;
     align-items: center;
@@ -453,8 +444,9 @@ p.header{
     background:linear-gradient(to left bottom, rgb(173, 173, 255),rgb(179, 215, 255) );
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
-.infodatapircetab{
+.infodatapircetab{    
     margin-top: 30px;
+    padding-right: 15px;
     border-radius: 15px;
     width: 400px;
     height: 200px;
@@ -624,3 +616,140 @@ p.cspace{
     user-select: none;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+
+.shipdatatab{
+    margin-left: 40px;
+    margin-right: 20%;
+    border-radius: 15px;    
+    align-items: center;
+    justify-content: center;
+    width: 450px;
+    height: 580px;
+    background:linear-gradient(to left bottom, rgb(173, 173, 255),rgb(179, 215, 255) );
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+p.paddingtop {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	margin: 0;
+	padding: 16px;
+	color: white;
+	background-color: black;
+}
+p.paddingcenter {
+   
+	margin: 0;
+	padding: 16px;
+	color: white;
+	background-color: black;
+}
+p.red {
+	color :red;
+}
+p.middle {
+	text-align: center;
+}
+p.spaceship{    
+    padding-left: 6px; 
+}
+.padding {
+	padding: 16px;
+	
+}
+
+button.shop{
+	margin: 2px;
+	margin-left: 12%;
+    margin-right: 12%;
+    font-family: 'Kanit', sans-serif;    
+    padding: 10px;   
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(189, 240, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+	width: 100px;
+	height: 50px;
+}
+
+button.pay{
+	margin: 2px;
+	margin-left: 12%;
+    margin-right: 12%;
+    font-family: 'Kanit', sans-serif;    
+    padding: 10px;   
+    font-size: 16px;
+    border-radius: 10px;
+    border-width: 0px;
+    background-color: rgb(108, 146, 216);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+	width: 100px;
+	height: 50px;
+}
+
+button.shop:hover {
+    background-color: rgb(255, 169, 169);
+}
+button.pay:hover {
+    background-color: rgb(255, 166, 251);
+}
+
+
+.grid-item {
+	padding: 5px;
+}
+
+.checkBox {
+    margin: 15px;    
+}
+
+
+.checkPrice1 {
+	display: grid;
+	grid-template-columns: 40% 40% 20%;
+	margin-top: 5px;
+	margin-right: 15px;
+    margin-left: 15px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+	padding : 20px;
+    background-color: aliceblue;
+	justify-content: space-around;
+}
+.checkPrice2 {
+	margin-right: 15px;
+	margin-left: 15px;
+	padding : 10px;
+    background-color: aliceblue;
+	justify-content: space-around;
+}
+.checkPrice3 {
+    display: grid;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+	grid-template-columns: 40% 40% 20%;
+	margin-bottom: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	padding : 20px;
+    background-color: aliceblue;
+	justify-content: space-around;
+}
+h3{
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.radiobutton:hover{
+    cursor: pointer;
+   
+}
+
+
+

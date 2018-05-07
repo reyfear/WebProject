@@ -59,19 +59,40 @@
 				</div>
 				</form>
 			</div>
-			<form class="contactdatatab" name="myForm" id="myForm">
+			<form class="shipdatatab" name="myForm" id="myForm">
+			<p class="paddingtop"> วิธีการสั่งสินค้า     </p>
+				<div class="checkBox">
+					<input class="radiobutton" type="radio" name="Shipping by" value="Normal"> Normal<br>
+					<input class="radiobutton" type="radio" name="Shipping by" value="EMS"> EMS
+				</div>
 
+
+				<p class="paddingcenter"> วิธีการจ่ายเงิน     </p>
+				<div class="checkBox">
+					<input class="radiobutton" type="radio" name="Shipping by" value="Normal"> โอนเงินผ่านธนาคาร <br>
+					<input class="radiobutton" type="radio" name="Shipping by" value="EMS"> หักบัตรเครดิต
+				</div>
+				<div class="checkPrice1">
+					<b><p>Price</p></b><p class = "middle"></p><p class="spaceship">Baht</p>
+					<b><p>Shipping</p></b><p  class = "middle"></p><p class="red">*Free</p>
+				</div>
+				<div class ="checkPrice2"><hr></div>
+				<div class="checkPrice3">
+					<h3>Total</h1><p  class = "middle"></p><h3>Baht</h3>
+				</div>
+
+				<div class="padding">
+					<button class="shop"><p>Shopping</p></button>
+					<button class="pay"><p>Checkout</p></button>
+
+				</div>
 			
-					<div class="infodata">
-					<p class="space">Price: </p>
-					<p class="price"> 50,000 </p>
-					<p class="bath">Bath</p>
-					</div>
-
-					<div class="grid-item" id="#buy">
-						<button class="buybtn">Buy Now</button>
-					
 					</form>
+				
+				
+				
+				
+				
 					<form >
 
 					</form>
