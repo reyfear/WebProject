@@ -386,7 +386,7 @@ p.header{
 
 }
 
-.piccaminfo{
+#piccaminfo img{
     margin-top: 30px;
     width: 400px;
     height: 400px;
@@ -397,8 +397,8 @@ p.header{
     border-radius: 20px;
     justify-content: center;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    position:absolute;
     left:0;
+    position: absolute;
     -webkit-transition: opacity 1s ease-in-out;
     -moz-transition: opacity 1s ease-in-out;
     -o-transition: opacity 1s ease-in-out;
@@ -414,9 +414,9 @@ p.header{
     grid-gap: 50px;
     padding: 10px;
     justify-content: center;
-    
+
  }
-.piccaminfo.opaque {
+#piccaminfo img.opaque {
     opacity:1;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);

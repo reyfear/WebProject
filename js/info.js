@@ -11,10 +11,9 @@ function displayInfo() {
     infoDataTemplate.getElementsByClassName("type")[0].innerHTML = productArray[infoNumber].type;
     infoDataTemplate.getElementsByClassName("price")[0].innerHTML = productArray[infoNumber].price;
     var infoPicTemplate = document.getElementsByClassName("productInfo_img");
-    var productImg = document.getElementById("productImg");
-    productImg.src = productArray[infoNumber].img["img" + 1];
-    productImg.className = "piccaminfo.opaque";
+    var productImg = document.querySelectorAll("#piccaminfo img");
     for (var i = 0; i < infoPicTemplate.length; i++) {
+      productImg[i].src = productArray[infoNumber].img["img" + (i + 1)];
       infoPicTemplate[i].src = productArray[infoNumber].img["img" + (i + 1)];
     }
     var infoClicked = "";
@@ -23,15 +22,13 @@ function displayInfo() {
 }
 
 function addEventToProductImg() {
-  for (var i = 0; i < infoPicTemplate.length; i++) {
-    $(document).ready(function() {
-      $(".productInfo_img").on('click', function() {
-        $("#piccamother").removeClass("opaque");
-        var newImage = this.src;;
-        $("#piccamother").eq(newImage).addClass("opaque");
-      });
+  $(document).ready(function() {
+    $(".productInfo_img").on('click', function() {
+      $("#piccaminfo img").removeClass("opaque");
+      var newImage = $(this).index();
+      $("#piccaminfo img").eq(newImage).addClass("opaque");
     });
-  }
+  });
 }
 
 function changePic() {
