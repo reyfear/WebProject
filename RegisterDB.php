@@ -38,7 +38,7 @@
 
 	if($conn->query($sql) === TRUE) {
 		echo "ID Created";
-    header("Location: http://localhost/MDT419/WebProject/index.html");
+    header("Location: http://localhost/MDT419/WebProject/index.php");
     exit;
 	} else {
 		echo "Error: " . $sql . "<br>" . $conn->error;
