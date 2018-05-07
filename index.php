@@ -17,7 +17,7 @@
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="Style1.css"/>
 		<title>LAUMKLONG</title>
-		<metaname="viewport"content="width=devicewidth, initial-scale=1.0">
+		<metaname="viewport"content="width=device-width, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 	</head>
 <body>

@@ -351,6 +351,8 @@ p{
     grid-column: 1/ span 4;
     display: grid;
     grid-template-columns: 33.3% 33.3% 33.3% ;
+    
+    min-width: 960px;
     grid-gap: 0px;
     margin-top: -30px;
     border-bottom-left-radius: 10px;
@@ -364,6 +366,9 @@ p{
 
 /* Add some shadows to create a card effect */
 .card {
+    width: auto;
+    min-width: 160px;
+    height: 300px;
     cursor: pointer;
     border-radius: 15px;
     text-align: center;
@@ -402,8 +407,10 @@ p{
     background-color: #555;
 }
 .productPic{
+    max-width:100%;
+    height:auto;
     width: 150px;
-    height: 150px;
+    
 }
 p.header{
     font-size: 20px;
