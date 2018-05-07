@@ -12,7 +12,6 @@
 	$telephone = $_GET["telephone"];
 	$name = $_GET["name"] . " " . $_GET["surname"];
 
-<<<<<<< HEAD
 	if($pass != $repassword) {
 		echo "<script type='text/javascript'>
 			alert('Password doesnt match.');
@@ -36,22 +35,6 @@
 					$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
 					VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
 				}
-=======
-	$conn = new mysqli($servername, $username, $password, $dbname);
-	mysqli_set_charset($conn, "utf8");
-	$sql = "SELECT email FROM $tablename";
-	$result = $conn->query($sql);
-
-	if($result->num_rows > 0) {
-		while($row = $result->fetch_assoc()) {
-			if($email == $row["email"]){
-				echo "email cant use";
-				exit;
-			}
-			else{
-				$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
-				VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
->>>>>>> origin/PeeAof
 			}
 
 		} else {
