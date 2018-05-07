@@ -12,7 +12,7 @@
         }
     },
     "camera2": {
-        "name": "Sony Alpha a6300 KIT 16-50mm.",
+        "name": "Sony A6300 KIT 16-50mm.",
         "brand": "Sony",
         "type": "Camera",
         "typecheck": "Camera",
@@ -24,7 +24,7 @@
         }
     },
     "camera3": {
-        "name": "Sony Alpha a6500 (body)",
+        "name": "Sony A6500 (body)",
         "brand": "Sony",
         "type": "Camera",
         "typecheck": "Camera",
@@ -36,7 +36,7 @@
         }
     },
     "camera4": {
-        "name": "Sony Alpha a7 II K 28-70mm.",
+        "name": "Sony A7 II Kit 28-70mm.",
         "brand": "Sony",
         "type": "Camera",
         "typecheck": "Camera",
@@ -48,11 +48,11 @@
         }
     },
     "camera5": {
-        "name": "Sony A7 III Lens 28-70mm.",
+        "name": "Sony A7 III .",
         "brand": "Sony",
         "type": "Camera",
         "typecheck": "Camera",
-        "price": "74,990",
+        "price": "69,990",
         "img": {
             "img1": "Camera/Cam5_1.jpg",
             "img2": "Camera/Cam5_2.jpg",
