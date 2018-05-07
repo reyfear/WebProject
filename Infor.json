@@ -279,8 +279,8 @@
     "Gopro3": {
         "name": "Ricoh THETA V",
         "brand": "Ricoh",
-        "type": "360 Camera",
-        "typecheck": "Camera",
+        "type": "Action Camera",
+        "typecheck": "Action",
         "price": "16,990",
         "img": {
             "img1": "Gopro/gopro3_1.jpg",
