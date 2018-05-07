@@ -63,9 +63,14 @@
 				</div>
 
 			<div class="infopictab" id="infoPic_template">
-				
-					<img class="piccaminfo" id="productImg"src="images/a7iii_info.jpg">
-					
+					<div id="bigPicContainer">
+						<div id="piccaminfo">
+							<img class="opaque" src="images/a7iii_info.jpg">
+							<img src="images/a7iii_info.jpg">
+							<img src="images/a7iii_info.jpg">
+						</div>
+					</div>
+
 					<div class="grid-item" id="piccamother">
 						<img class="productInfo_img" src="images/a7iii_info.jpg" width="100px" height="100px " >
 						<img class="productInfo_img" src="images/a7iii_info.jpg" width="100px" height="100px " >
