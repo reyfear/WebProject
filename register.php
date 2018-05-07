@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="Style1.css"/>
-		<title>Insert title here</title>
+		<title>LAUMKLONG</title>
 		<metaname="viewport"content="width=devicewidth, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 	</head>

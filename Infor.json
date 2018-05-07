@@ -291,8 +291,8 @@
     "Gopro4": {
         "name": "Insta360 Air for Micro USB",
         "brand": "insta360",
-        "type": "360 Camera",
-        "typecheck": "Camera",
+        "type": "Action",
+        "typecheck": "Action",
         "price": "5,690",
         "img": {
             "img1": "Gopro/gopro4_1.jpg",

@@ -16,7 +16,7 @@
 	<head>
 		<meta charset="UTF-8">
 		<link rel="stylesheet" href="Style1.css"/>
-		<title>Insert title here</title>
+			<title>LAUMKLONG</title>
 		<metaname="viewport"content="width=devicewidth, initial-scale=1.0">
 		<link href="https://fonts.googleapis.com/css?family=Kanit" rel="stylesheet">
 
@@ -69,7 +69,7 @@
 				<img src="images/a7iii_info.jpg">
 				<img src="images/a7iii_info.jpg">
 			</div>
-		</div>		
+		</div>
 					<div class="grid-item" id="piccamother">
 						<img class="productInfo_img" src="images/a7iii_info.jpg" width="100px" height="100px " >
 						<img class="productInfo_img" src="images/a7iii_info.jpg" width="100px" height="100px " >

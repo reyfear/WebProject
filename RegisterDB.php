@@ -1,7 +1,7 @@
 <?php
 	$servername = "localhost";
-	$username = "PeeAof";
-	$password = "Safeped40";
+	$username = "grapescandal";
+	$password = "admin";
 	$dbname = "mdt419";
   $tablename = "lkuserDB";
 
@@ -12,6 +12,31 @@
 	$telephone = $_GET["telephone"];
 	$name = $_GET["name"] . " " . $_GET["surname"];
 
+<<<<<<< HEAD
+	if($pass != $repassword) {
+		echo "<script type='text/javascript'>
+			alert('Password doesnt match.');
+			window.location.href = 'http://localhost/MDT419/WebProject/register.php';
+		</script>";
+	} else {
+		$conn = new mysqli($servername, $username, $password, $dbname);
+		mysqli_set_charset($conn, "utf8");
+
+		$sql = "SELECT email FROM $tablename";
+		$result = $conn->query($sql);
+
+		if($result->num_rows > 0) {
+			while($row = $result->fetch_assoc()) {
+				if($email == $row["email"]){
+					echo "<script type='text/javascript'>
+						alert('This e-mail already use.');
+						window.location.href = 'http://localhost/MDT419/WebProject/register.php';
+					</script>";
+				}  else {
+					$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
+					VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
+				}
+=======
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	mysqli_set_charset($conn, "utf8");
 	$sql = "SELECT email FROM $tablename";
@@ -26,23 +51,25 @@
 			else{
 				$sql = "INSERT INTO $tablename (email, password, address, telephone, name)
 				VALUES ('$email', '$pass', '$address', '$telephone', '$name')";
+>>>>>>> origin/PeeAof
 			}
+
+		} else {
+			echo "0 results";
 		}
 
-	} else {
-		echo "0 results";
+			/*$sql = "INSERT INTO $tablename (email, password, address, telephone)
+		VALUES ('$email', $pass, '$address', '$telephone')";*/
+
+		if($conn->query($sql) === TRUE) {
+			echo "<script type='text/javascript'>
+				alert('Register Complete');
+				window.location.href = 'http://localhost/MDT419/WebProject/index.php';
+			</script>";
+		} else {
+			echo "Error: " . $sql . "<br>" . $conn->error;
+		}
+
+		$conn->close();
 	}
-
-    /*$sql = "INSERT INTO $tablename (email, password, address, telephone)
-	VALUES ('$email', $pass, '$address', '$telephone')";*/
-
-	if($conn->query($sql) === TRUE) {
-		echo "ID Created";
-    header("Location: http://localhost/MDT419/WebProject/index.php");
-    exit;
-	} else {
-		echo "Error: " . $sql . "<br>" . $conn->error;
-	}
-
-	$conn->close();
 ?>
