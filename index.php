@@ -31,8 +31,7 @@
 		</div>
 	</div>
 		<div class="grid-content">
-			<div class="grid-second">
-				
+			<div class="grid-second">			
 				<div id="logbtn" class="logintab">
 				<form action="checkLoginDB.php" method="get" accept-charset="utf-8" class="form">
 					<div class="loginpad" style = "display: <?php echo $_SESSION['login']?>">
@@ -58,7 +57,7 @@
 					</div>
 					</form>
 				</div>
-			
+
 			<div class="adcontent">
 			<div class="AD">
 			    <img class="mySlides" src="images/slide/slide01.png">
@@ -101,6 +100,6 @@
 	<script src="js/createAllJS.js"></script>
 	<script src="js/product.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	
+
 </body>
 </html>

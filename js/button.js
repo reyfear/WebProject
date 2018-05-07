@@ -19,10 +19,6 @@ function gotoRegister(){
   window.location.href= "register.php"
 }
 
-function test() {
-	alert("test");
-}
-
 $("#productBtn").on('click', function(event) {
       event.preventDefault();
       var hash = "product";
@@ -38,6 +34,6 @@ $("#productBtn").on('click', function(event) {
       } else {
         var productBtnClicked = "click";
         localStorage.setItem("gotoProduct", productBtnClicked);
-        window.location.href = "index.html";
+        window.location.href = "index.php";
       }
 });
