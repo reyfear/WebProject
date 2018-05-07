@@ -54,7 +54,7 @@
 					<input class="regisbar" type="text" name="surname" required>
 					<br><br>
 					Address*:
-					<input class="addressbar" type="text" name="address" required>
+					<textarea  class="addressbar" type="text" name="address" required> </textarea>
 					<br><br>
 					Telephone*:
 					<input class="regisbar" type="text" name="telephone" required>
