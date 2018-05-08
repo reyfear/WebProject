@@ -39,7 +39,6 @@
 			alert('Login Error. Please check your E-mail and Password');
 			window.location.href = 'http://localhost/MDT419/WebProject/index.php';
 		</script>";
-		header();
   } else {
     echo "0 results";
   }
