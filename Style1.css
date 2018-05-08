@@ -559,6 +559,7 @@ p.space{
 /*Ad*/
 .mySlides{
     /* width:60%; */
+    display: none;
     width: 800px;
     height: 350px;
     box-shadow: 0px 5px 20px 2px rgba(0,0,0,0.2);
