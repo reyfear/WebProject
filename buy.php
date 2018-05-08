@@ -72,8 +72,14 @@
 					<input class="radiobutton" type="radio" name="Pay by" value="Normal"> โอนเงินผ่านธนาคาร <br>
 					<input class="radiobutton" type="radio" name="Pay by" value="EMS"> หักบัตรเครดิต
 				</div>
+				<div class="checkPrice0">
+					
+					<b><p>Product Name</p></b><p class = "address" id="nameproduct">54164185949684</p>
+					<b><p>Address</p></b><p class = "address" id="address">sadassad564165g155555555555555555555555065416541</p>
+				</div>
 				<div class="checkPrice1">
 					<b><p>Price</p></b><p class = "middle" id="priceText"></p><p class="spaceship">Baht</p>
+					<b><p>Amount</p></b><p class = "middle" id="pieceText"></p><p class="spaceship">Piece</p>
 					<b><p>Shipping</p></b><p  class = "middle"></p><p class="red">*Free</p>
 				</div>
 				<div class ="checkPrice2"><hr></div>
