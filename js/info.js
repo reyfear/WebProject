@@ -1,4 +1,4 @@
-var productClicked = localStorage.getItem("productInfo");
+  var productClicked = localStorage.getItem("productInfo");
 displayInfo();
 addEventToProductImg();
 addEventToPiece();
@@ -18,7 +18,7 @@ function displayInfo() {
       productImg[i].src = productArray[infoNumber].img["img" + (i + 1)];
       infoPicTemplate[i].src = productArray[infoNumber].img["img" + (i + 1)];
     }
-  }
+     }
 }
 
 function addEventToProductImg() {
@@ -63,3 +63,4 @@ function addCommas(nStr) {
     }
     return x1 + x2;
 }
+
