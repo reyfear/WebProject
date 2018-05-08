@@ -92,7 +92,7 @@
 					<p class="type">Mirrorless</p>
 				</div>
 				<div class="infodata">
-					<p class="space">Quantity </p>
+					<p class="space">Amount </p>
 					<input id="pieceBox" class="number" type="text" value="1">
 					<p> Piece</p>
 					</div>
