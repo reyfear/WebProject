@@ -60,22 +60,24 @@
 				</form>
 			</div>
 			<form class="shipdatatab" name="myForm" id="myForm">
-			<p class="paddingtop"> วิธีการสั่งสินค้า     </p>
+			<p class="paddingtop"> วิธีการส่งสินค้า     </p>
 				<div class="checkBox">
-					<input class="radiobutton" type="radio" name="Shipping by" value="Normal"> Normal<br>
-					<input class="radiobutton" type="radio" name="Shipping by" value="EMS"> EMS
+					<input class="radioButton" type="radio" name="Shipping by" value="Normal"> Normal<br>
+					<input class="radioButton" type="radio" name="Shipping by" value="EMS"> EMS
 				</div>
 
 
 				<p class="paddingcenter"> วิธีการจ่ายเงิน     </p>
 				<div class="checkBox">
-					<input class="radiobutton" type="radio" name="Pay by" value="Normal"> โอนเงินผ่านธนาคาร <br>
-					<input class="radiobutton" type="radio" name="Pay by" value="EMS"> หักบัตรเครดิต
+					<input class="radioButton" type="radio" name="Pay by" value="Normal"> โอนเงินผ่านธนาคาร <br>
+					<input class="radioButton" type="radio" name="Pay by" value="EMS"> หักบัตรเครดิต
 				</div>
 				<div class="checkPrice0">
-					
-					<b><p>Product Name</p></b><p class = "address" id="nameproduct">54164185949684</p>
-					<b><p>Address</p></b><p class = "address" id="address">sadassad564165g155555555555555555555555065416541</p>
+
+					<b><p>Product Name</p></b>
+					<p class = "address" id="nameproduct"></p>
+					<b><p>Address</p></b>
+					<p class="address" id="address"></p>
 				</div>
 				<div class="checkPrice1">
 					<b><p>Price</p></b><p class = "middle" id="priceText"></p><p class="spaceship">Baht</p>
@@ -89,7 +91,7 @@
 
 				<div class="padding">
 					<button class="shop" id="shop"><p>Shopping</p></button>
-					<button class="pay" id="payBtn"><p>Checkout</p></button>
+					<button class="pay" id="payBtn" disabled="true"><p>Checkout</p></button>
 				</div>
 					</form>
 					<form >
@@ -99,6 +101,7 @@
 
 		</div>
 		<script src="js/createAllJS.js"></script>
+	  <script src="js/product.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

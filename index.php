@@ -4,11 +4,6 @@
 	if(isset($_SESSION["email"]) && isset($_SESSION["password"])){
 		$name = $_SESSION['name'];
 	}
-	// else{
-	// 	//session_unset();
-	// 	header("Location: http://localhost/MDT419/Webproject/index.php");
-	// 	//exit;
-	// }
 ?>
 
 <!DOCTYPE html>

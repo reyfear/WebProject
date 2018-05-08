@@ -48,6 +48,9 @@ function addEventToBuyBtn() {
     allBuyBtn[0].addEventListener('click', function() {
       var totalPrice = price.innerHTML;
       localStorage.setItem("totalPrice", totalPrice);
+      var pieceTextBox = document.getElementById("pieceBox");
+      var amount = pieceTextBox.value;
+      localStorage.setItem("amount", amount);
       window.location.href = "http://localhost/MDT419/WebProject/buy.php";
     }, true);
 }
@@ -63,4 +66,3 @@ function addCommas(nStr) {
     }
     return x1 + x2;
 }
-
