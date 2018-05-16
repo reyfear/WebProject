@@ -14,7 +14,7 @@ function categorySelected() {
   clearCategory();
   currentCategory = this.getAttribute("value");
   this.id = this.id + "Click";
-  displayCategory(currentCategory);
+  displayCategory();
 }
 
 function displayCategory() {

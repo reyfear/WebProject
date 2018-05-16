@@ -1,4 +1,4 @@
-  var productClicked = localStorage.getItem("productInfo");
+var productClicked = localStorage.getItem("productInfo");
 displayInfo();
 addEventToProductImg();
 addEventToPiece();
